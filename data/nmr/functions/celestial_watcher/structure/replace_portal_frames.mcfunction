@@ -10,4 +10,4 @@ setblock ~4 ~-5 ~-4 end_portal_frame[eye=false] replace
 
 playsound block.end_portal.spawn ambient @a ~ ~ ~ 1 .7
 
-scoreboard players set $nmv_eye_frame nmv.technical 0
+scoreboard players set $nmr_eye_frame nmr.technical 0

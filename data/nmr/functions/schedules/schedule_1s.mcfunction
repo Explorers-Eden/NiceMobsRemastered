@@ -20,5 +20,6 @@ function nmr:health_display/run_1s
 function nmr:penguin/run
 function nmr:rarities/run
 function nmr:nitwit/run
+function nmr:celestial_watcher/structure/summon_structure
 
 schedule function nmr:schedules/schedule_1s 1s
