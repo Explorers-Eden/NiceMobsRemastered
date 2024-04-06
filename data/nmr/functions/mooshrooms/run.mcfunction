@@ -1,0 +1,1 @@
+execute as @e[type=mooshroom,limit=1,tag=!nmr_type_set] at @s run function nmr:mooshrooms/set_type

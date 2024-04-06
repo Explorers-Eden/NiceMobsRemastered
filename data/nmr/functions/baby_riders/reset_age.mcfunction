@@ -1,0 +1,1 @@
+execute as @e[tag=nmr_baby] run data modify entity @s Age set value -999999999

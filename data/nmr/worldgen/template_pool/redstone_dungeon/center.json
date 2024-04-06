@@ -1,0 +1,13 @@
+{
+    "name": "nmr:redstone_dungeon/center",
+    "fallback": "minecraft:empty",
+    "elements": [{
+        "weight": 1,
+        "element": {
+            "location": "nmr:redstone_dungeon/center/spawner",
+            "processors": "minecraft:empty",
+            "projection": "rigid",
+            "element_type": "minecraft:single_pool_element"
+        }
+    }]
+}

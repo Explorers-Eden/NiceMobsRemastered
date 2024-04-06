@@ -1,0 +1,86 @@
+{
+    "values": [
+        "minecraft:forest",
+        "minecraft:flower_forest",
+        "minecraft:savanna",
+        "minecraft:mushroom_fields",
+        "minecraft:badlands",
+        "minecraft:wooded_badlands",
+        "minecraft:birch_forest",
+        "minecraft:dark_forest",
+        "minecraft:cherry_grove",
+        "minecraft:taiga",
+        "minecraft:snowy_taiga",
+        "minecraft:ice_spikes",
+        "minecraft:plains",
+        "minecraft:savanna",
+        { 
+            "id": "terralith:blooming_plateau",
+            "required": false
+        },
+        { 
+            "id": "terralith:blooming_valley",
+            "required": false
+        },
+        { 
+            "id": "terralith:brushland",
+            "required": false
+        },
+        { 
+            "id": "terralith:sakura_grove",
+            "required": false
+        },
+        { 
+            "id": "terralith:hot_shrubland",
+            "required": false
+        },
+        { 
+            "id": "terralith:moonlight_grove",
+            "required": false
+        },
+        { 
+            "id": "terralith:rocky_shrubland",
+            "required": false
+        },
+        { 
+            "id": "terralith:shield_clearing",
+            "required": false
+        },
+        { 
+            "id": "terralith:shield",
+            "required": false
+        },
+        { 
+            "id": "terralith:shrubland",
+            "required": false
+        },
+        { 
+            "id": "terralith:wintry_forest",
+            "required": false
+        },
+        { 
+            "id": "terralith:valley_clearing",
+            "required": false
+        },
+        { 
+            "id": "terralith:steppe",
+            "required": false
+        },
+        { 
+            "id": "terralith:yosemite_lowlands",
+            "required": false
+        },
+        { 
+            "id": "terralith:glacial_chasm",
+            "required": false
+        },
+        { 
+            "id": "terralith:snowy_badlands",
+            "required": false
+        },
+        { 
+            "id": "terralith:snowy_maple_forest",
+            "required": false
+        }
+    ]
+}

@@ -1,0 +1,2 @@
+playsound entity.warden.agitated ambient @a ~ ~ ~ 1 1.5
+summon area_effect_cloud ~ ~ ~ {Particle:"dust 0.427 0.259 0.337 1",Radius:3f,RadiusPerTick:.02f,Duration:100,Color:7483486,Tags:["eye_cloud"],effects:[{id:"minecraft:hunger",amplifier:2b,duration:200,show_particles:0b},{id:"minecraft:darkness",amplifier:2b,duration:200,show_particles:0b}]}

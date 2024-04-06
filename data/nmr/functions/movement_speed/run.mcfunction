@@ -1,0 +1,2 @@
+execute as @e[type=#nmr:can_modify_speed,limit=10,tag=!nmr_speed_set,nbt=!{IsBaby:1b}] at @s if predicate nmr:percentages/50percent run function nmr:movement_speed/get_modifier
+execute as @e[type=#nmr:can_modify_speed,limit=10,tag=!nmr_speed_set] at @s run tag @s add nmr_speed_set

@@ -1,0 +1,13 @@
+{
+    "placement": {
+        "type": "minecraft:random_spread",
+        "spacing": 34,
+        "separation": 8,
+        "salt": 27554018,
+        "spread_type": "triangular"
+    },
+    "structures": [{
+        "structure": "nmr:pillagernauts",
+        "weight": 1
+    }]
+}

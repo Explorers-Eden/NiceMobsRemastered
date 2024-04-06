@@ -1,0 +1,2 @@
+execute as @e[type=#nmr:has_health_display,predicate=!nmr:entity/exclude_from_displays,tag=!nmr_level_set,predicate=!nmr:entity/rarity_mobs] at @s if entity @e[type=player,distance=..48] run function nmr:biome_levels/get_level
+execute as @e[type=text_display,tag=nmr_level_display,predicate=!nmr:entity/rarity_display_vehicles] run kill @s

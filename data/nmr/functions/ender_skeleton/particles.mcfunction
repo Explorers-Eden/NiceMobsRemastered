@@ -1,0 +1,1 @@
+execute as @e[type=minecraft:wither_skeleton,tag=nmr_ender_skeleton] at @s run particle minecraft:portal ~ ~.5 ~ .4 .4 .4 0 10

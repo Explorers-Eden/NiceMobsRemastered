@@ -1,0 +1,13 @@
+{
+    "name": "nmr:pillagernauts/base_plate",
+    "fallback": "minecraft:empty",
+    "elements": [{
+        "weight": 1,
+        "element": {
+            "location": "nmr:pillagernauts/base_plate",
+            "processors": "minecraft:empty",
+            "projection": "terrain_matching",
+            "element_type": "minecraft:single_pool_element"
+        }
+    }]
+}

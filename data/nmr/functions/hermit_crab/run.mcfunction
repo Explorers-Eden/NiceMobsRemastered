@@ -1,0 +1,2 @@
+execute as @e[type=turtle,limit=1,tag=!nmr_no_hermit_crab] at @s run function nmr:hermit_crab/pre_spawn
+execute as @e[type=marker,tag=nmr_hermit_crab_spawner] at @s run function nmr:hermit_crab/spawner_hermit_crabs

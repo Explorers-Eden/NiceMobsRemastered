@@ -1,0 +1,2 @@
+execute as @e[type=villager,nbt={VillagerData:{profession:"minecraft:nitwit"}},tag=!nmr_nitwit_set,tag=!nmr_no_nitwit] at @s run function nmr:nitwit/get_data
+execute as @e[type=villager,nbt=!{VillagerData:{profession:"minecraft:nitwit"}},tag=!nmr_no_nitwit] at @s run tag @s add nmr_no_nitwit

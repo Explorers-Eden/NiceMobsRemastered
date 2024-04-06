@@ -1,0 +1,1 @@
+summon marker ~ ~ ~ {Tags:["nmr_ladybug_spawner"]}

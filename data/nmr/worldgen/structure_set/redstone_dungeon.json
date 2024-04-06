@@ -1,0 +1,13 @@
+{
+    "placement": {
+        "type": "minecraft:random_spread",
+        "spacing": 200,
+        "separation": 100,
+        "salt": 27554018,
+        "spread_type": "triangular"
+    },
+    "structures": [{
+        "structure": "nmr:redstone_dungeon",
+        "weight": 1
+    }]
+}

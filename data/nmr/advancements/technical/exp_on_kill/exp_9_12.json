@@ -1,0 +1,24 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {}
+            }
+          ],
+          "entity": {
+            "type": "#nmr:has_health_display",
+            "nbt": "{Tags:[\"exp_9_12\"]}"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "nmr:exp_on_kill/exp_9_12"
+    }
+  }
+  

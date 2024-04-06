@@ -1,0 +1,1 @@
+execute as @e[type=minecraft:zombie,limit=1,sort=nearest,tag=!nmr_zombie_rider,predicate=nmv:world/moss_replacable] at @s if predicate nmv:world/raining if predicate nmv:percentages/2percent run function nmr:zombie_rider/spawn

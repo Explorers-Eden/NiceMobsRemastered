@@ -1,0 +1,25 @@
+{
+    "values": [
+        { "id": "minecraft:snowy_taiga","required": false},
+        { "id": "minecraft:old_growth_pine_taiga","required": false},
+        { "id": "minecraft:old_growth_spruce_taiga","required": false},
+        { "id": "minecraft:taiga","required": false},
+        { "id": "terralith:birch_taiga","required": false},
+        { "id": "terralith:lush_valley","required": false},
+        { "id": "terralith:shield","required": false},
+        { "id": "terralith:yellowstone","required": false},
+        { "id": "terralith:alphine_highlands","required": false},
+        { "id": "terralith:forested_highlands","required": false},
+        { "id": "terralith:caldera","required": false},
+        { "id": "terralith:cloud_forest","required": false},
+        { "id": "terralith:siberian_grove","required": false},
+        { "id": "terralith:siberian_taiga","required": false},
+        { "id": "terralith:snowy_maple_forest","required": false},
+        { "id": "terralith:temperate_highlands","required": false},
+        { "id": "terralith:snowy_shield","required": false},
+        { "id": "terralith:wintry_forest","required": false},
+        { "id": "terralith:wintry_lowlands","required": false},
+        { "id": "terralith:yosemite_cliffs","required": false},
+        { "id": "terralith:yosemite_lowlands","required": false}
+    ]
+}

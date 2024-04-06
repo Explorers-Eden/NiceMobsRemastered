@@ -1,0 +1,1 @@
+execute as @e[type=villager,limit=5] at @s if entity @e[distance=..1,type=camel,nbt=!{Passengers:[{id:"minecraft:villager"}]}] if entity @e[type=player,distance=..10] run ride @s mount @e[type=minecraft:camel,limit=1,sort=nearest]

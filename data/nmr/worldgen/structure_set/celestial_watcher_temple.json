@@ -1,0 +1,15 @@
+{
+    "structures": [
+      {
+        "structure": "nmr:celestial_watcher_temple",
+        "weight": 1
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "spacing": 80,
+      "separation": 20,
+      "spread_type": "triangular",
+      "salt": 6942069
+    }
+  }

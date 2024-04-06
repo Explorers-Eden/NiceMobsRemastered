@@ -1,0 +1,5 @@
+$summon axolotl ~ ~ ~ {Silent:1b,DeathLootTable:"nmr:nautilus",Tags:["nmr_headmob_base","nmr_nautilus","nmr_speed_set","nmr_resized"],PersistenceRequired:1b,Health:15f,Attributes:[{Name:generic.max_health,Base:15},{Name:generic.movement_speed,Base:0.6},{Name:generic.scale,Base:0.3},],Passengers:[{id:"minecraft:item_display",view_range:48f,Tags:["nmr_headmob_head","nmr_nautilus_head","nmr_speed_set","nmr_resized"],transformation:{left_rotation:[0f,-0.11f,0f,0.994f],right_rotation:[0f,-0.992f,0f,0.12f],translation:[0f,0.3f,0f],scale:[.$(size)f,.$(size)f,.$(size)f]},item:{id:"minecraft:player_head",count:1,components:{profile:{name:"nautilus",properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjQxN2Y5NjU1NjgzOGJkNzVjNjExYWRjMzc2MGYyOTdlOTJkZGJiNDE5ODFhYjBmZjc3NjI2MzExODk1YTZjNiJ9fX0="}]}}}}],active_effects:[{id:"minecraft:invisibility",amplifier:1b,duration:-1,show_particles:0b}]}
+tp @s ~ -3000 ~
+kill @s
+
+execute as @e[type=item_display,tag=nmr_nautilus_head] run team join nmr_non_hostile_mobs @s

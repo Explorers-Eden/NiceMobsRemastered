@@ -1,0 +1,26 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:entity_hurt_player",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {}
+            }
+          ],
+          "damage": {
+            "source_entity": {
+              "type": "minecraft:zombie",
+              "nbt": "{Tags:[\"nmr_redstone_ghost\"]}"
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "nmr:redstone_ghost/hit_by_redstone_ghost"
+    }
+  }
+  

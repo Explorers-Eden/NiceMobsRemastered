@@ -1,0 +1,40 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:ender_eye",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'{\"text\":\"Celestial Feeder\",\"color\":\"#FFE799\",\"bold\":true,\"italic\":false}',Lore:['{\"text\":\" \"}','{\"text\":\"Ability:\",\"color\":\"green\",\"bold\":false,\"italic\":false}','{\"text\":\"Spawns a Celestial Watcher providing\",\"color\":\"green\",\"bold\":false,\"italic\":false}','{\"text\":\"saturation to players in a 48 block radius\",\"color\":\"green\",\"bold\":false,\"italic\":false}']},CustomModelData:771233,nmv:celestial_feeder}"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:ender_eye",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'{\"text\":\"Celestial Healer\",\"color\":\"#FFE799\",\"bold\":true,\"italic\":false}',Lore:['{\"text\":\" \"}','{\"text\":\"Ability:\",\"color\":\"green\",\"bold\":false,\"italic\":false}','{\"text\":\"Spawns a Celestial Watcher providing\",\"color\":\"green\",\"bold\":false,\"italic\":false}','{\"text\":\"healing to players in a 48 block radius\",\"color\":\"green\",\"bold\":false,\"italic\":false}']},CustomModelData:771234,nmv:celestial_heal}"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:ender_eye",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'{\"text\":\"Celestial Turret\",\"color\":\"#FFE799\",\"bold\":true,\"italic\":false}',Lore:['{\"text\":\" \"}','{\"text\":\"Ability:\",\"color\":\"green\",\"bold\":false,\"italic\":false}','{\"text\":\"Spawns a Celestial Watcher shooting fireballs\",\"color\":\"green\",\"bold\":false,\"italic\":false}','{\"text\":\"at hostile Entities in a 48 block radius\",\"color\":\"green\",\"bold\":false,\"italic\":false}']},CustomModelData:771235,nmv:celestial_turret}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,13 @@
+{
+    "placement": {
+        "type": "minecraft:random_spread",
+        "spacing": 300,
+        "separation": 50,
+        "salt": 19011220,
+        "spread_type": "triangular"
+    },
+    "structures": [{
+        "structure": "nmr:amemasu",
+        "weight": 1
+    }]
+}
