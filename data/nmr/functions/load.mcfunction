@@ -1,5 +1,3 @@
-##TESTING TESTING
-
 ##add scoreboards
 scoreboard objectives add nmr.technical dummy
 scoreboard objectives add nmr.piglinaut.killcount dummy
