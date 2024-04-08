@@ -61,7 +61,7 @@ scoreboard objectives add nmr.nitwit.pufferfish dummy
 
 ##set scoreboards
 scoreboard players set $nmr_golden_guardian_breathing nmr.technical 1
-scoreboard players set $175 nmr.technical 175
+scoreboard players set $250 nmr.technical 250
 scoreboard players set $100 nmr.technical 100
 scoreboard players set $90 nmr.technical 90
 scoreboard players set $health_multiplier nmr.technical 100

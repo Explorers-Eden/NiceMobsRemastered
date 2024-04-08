@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:random_boolean_selector",
+    "config": {
+      "feature_false": {
+        "feature": "nmr:shroom_2",
+        "placement": []
+      },
+      "feature_true": {
+        "feature": "nmr:shroom_1",
+        "placement": []
+      }
+    }
+  }
+  

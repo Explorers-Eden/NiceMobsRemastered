@@ -2,10 +2,11 @@
     "temperature": 1.5,
     "downfall": 0.4,
     "has_precipitation": false,
+    "creature_spawn_probability": 0.001,
     "effects": {
-      "sky_color": 535892,
-      "fog_color": 789778,
-      "water_color": 9408399,
+      "sky_color": 200742,
+      "fog_color": 726050,
+      "water_color": 1907484,
       "water_fog_color": 3355443,
       "grass_color": 4933961,
       "foliage_color": 2697513,
@@ -25,48 +26,49 @@
         "options": {
           "type": "sculk_soul"
         },
-        "probability": 0.001
+        "probability": 0.0015
       }
     },
     "spawners": {
       "ambient": [],
       "axolotls": [],
-      "creature": [],
+      "creature": [
+      ],
       "misc": [],
       "monster": [
         {
           "type": "minecraft:spider",
-          "weight": 100,
+          "weight": 10,
           "minCount": 1,
           "maxCount": 2
         },
         {
           "type": "minecraft:zombie",
-          "weight": 95,
+          "weight": 10,
           "minCount": 1,
           "maxCount": 2
         },
         {
           "type": "minecraft:zombie_villager",
-          "weight": 5,
+          "weight": 10,
           "minCount": 1,
           "maxCount": 2
         },
         {
           "type": "minecraft:skeleton",
-          "weight": 100,
+          "weight": 10,
           "minCount": 1,
           "maxCount": 2
         },
         {
           "type": "minecraft:creeper",
-          "weight": 100,
+          "weight": 10,
           "minCount": 1,
           "maxCount": 2
         },
         {
           "type": "minecraft:slime",
-          "weight": 100,
+          "weight": 10,
           "minCount": 1,
           "maxCount": 2
         },
@@ -78,103 +80,91 @@
         },
         {
           "type": "minecraft:witch",
-          "weight": 5,
+          "weight": 10,
           "minCount": 1,
           "maxCount": 2
         },
         {
           "type": "minecraft:drowned",
-          "weight": 80,
+          "weight": 10,
           "minCount": 1,
           "maxCount": 2
         },
         {
           "type": "minecraft:guardian",
-          "weight": 50,
-          "minCount": 1,
-          "maxCount": 2
-        },
-        {
-          "type": "minecraft:piglin",
-          "weight": 50,
-          "minCount": 1,
-          "maxCount": 2
-        },
-        {
-          "type": "minecraft:piglin_brute",
-          "weight": 20,
+          "weight": 10,
           "minCount": 1,
           "maxCount": 2
         },
         {
           "type": "minecraft:ghast",
-          "weight": 35,
+          "weight": 10,
           "minCount": 1,
           "maxCount": 2
         },
         {
           "type": "minecraft:stray",
-          "weight": 100,
+          "weight": 10,
           "minCount": 1,
           "maxCount": 2
         },
         {
           "type": "minecraft:pillager",
-          "weight": 5,
+          "weight": 10,
           "minCount": 1,
           "maxCount": 2
         },
         {
           "type": "minecraft:husk",
-          "weight": 100,
+          "weight": 10,
           "minCount": 1,
           "maxCount": 2
         },
         {
           "type": "minecraft:cave_spider",
-          "weight": 100,
-          "minCount": 1,
-          "maxCount": 2
-        },
-        {
-          "type": "minecraft:phantom",
-          "weight": 40,
+          "weight": 10,
           "minCount": 1,
           "maxCount": 2
         },
         {
           "type": "minecraft:evoker",
-          "weight": 20,
+          "weight": 10,
           "minCount": 1,
           "maxCount": 2
         },
         {
           "type": "minecraft:vindicator",
-          "weight": 20,
+          "weight": 10,
           "minCount": 1,
           "maxCount": 2
         },
         {
           "type": "minecraft:shulker",
-          "weight": 25,
+          "weight": 10,
           "minCount": 1,
           "maxCount": 2
         },
         {
           "type": "minecraft:magma_cube",
-          "weight": 80,
+          "weight": 10,
           "minCount": 1,
           "maxCount": 2
         },
         {
           "type": "minecraft:wither_skeleton",
-          "weight": 75,
+          "weight": 10,
           "minCount": 1,
           "maxCount": 2
         },
         {
           "type": "minecraft:blaze",
-          "weight": 50,
+          "weight": 10,
+          "minCount": 1,
+          "maxCount": 2
+        },
+        {
+          "type": "minecraft:phantom",
+          "weight": 5,
           "minCount": 1,
           "maxCount": 2
         }
@@ -199,17 +189,17 @@
         [],
         [],
         [],
-        [
-          "minecraft:patch_soul_fire",
-          "minecraft:sculk_vein"
-        ],
+        [],
         [],
         [
           "nmr:small_tree"
         ],
         [
           "nmr:small_tree",
-          "nmr:cut_tree"
+          "nmr:cut_tree",
+          "nmr:dead_corals",
+          "minecraft:patch_sugar_cane",
+          "nmr:shrooms"
         ],
         [
           "nmr:small_tree"
