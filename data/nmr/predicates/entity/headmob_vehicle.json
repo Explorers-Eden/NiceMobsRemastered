@@ -19,6 +19,33 @@
               "nbt": "{Tags:[\"nmr_penguin_head\"]}"
             }
           }
+        },
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "vehicle": {
+              "nbt": "{Tags:[\"nmr_celestial_watcher\"]}"
+            }
+          }
+        },
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "vehicle": {
+              "nbt": "{Tags:[\"nmr_celestial_watcher_head\"]}"
+            }
+          }
+        },
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "vehicle": {
+              "nbt": "{Tags:[\"nmr_celestial_watcher_sides\"]}"
+            }
+          }
         }
       ]
     }
