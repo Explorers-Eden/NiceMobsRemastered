@@ -1,0 +1,190 @@
+{
+    "temperature": 1.5,
+    "downfall": 0.4,
+    "has_precipitation": false,
+    "creature_spawn_probability": 0.001,
+    "effects": {
+      "sky_color": 200742,
+      "fog_color": 726050,
+      "water_color": 1907484,
+      "water_fog_color": 3355443,
+      "grass_color": 4933961,
+      "foliage_color": 2697513,
+      "mood_sound": {
+        "sound": "minecraft:ambient.cave",
+        "tick_delay": 6000,
+        "block_search_extent": 8,
+        "offset": 2
+      },
+      "music": {
+        "sound": "minecraft:music.overworld.deep_dark",
+        "min_delay": 12000,
+        "max_delay": 24000,
+        "replace_current_music": true
+      },
+      "particle": {
+        "options": {
+          "type": "sculk_soul"
+        },
+        "probability": 0.001
+      }
+    },
+    "spawners": {
+      "ambient": [],
+      "axolotls": [],
+      "creature": [
+      ],
+      "misc": [],
+      "monster": [
+        {
+          "type": "minecraft:spider",
+          "weight": 10,
+          "minCount": 1,
+          "maxCount": 2
+        },
+        {
+          "type": "minecraft:zombie",
+          "weight": 10,
+          "minCount": 1,
+          "maxCount": 2
+        },
+        {
+          "type": "minecraft:zombie_villager",
+          "weight": 10,
+          "minCount": 1,
+          "maxCount": 2
+        },
+        {
+          "type": "minecraft:skeleton",
+          "weight": 10,
+          "minCount": 1,
+          "maxCount": 2
+        },
+        {
+          "type": "minecraft:creeper",
+          "weight": 10,
+          "minCount": 1,
+          "maxCount": 2
+        },
+        {
+          "type": "minecraft:slime",
+          "weight": 10,
+          "minCount": 1,
+          "maxCount": 2
+        },
+        {
+          "type": "minecraft:enderman",
+          "weight": 10,
+          "minCount": 1,
+          "maxCount": 2
+        },
+        {
+          "type": "minecraft:witch",
+          "weight": 10,
+          "minCount": 1,
+          "maxCount": 2
+        },
+        {
+          "type": "minecraft:drowned",
+          "weight": 10,
+          "minCount": 1,
+          "maxCount": 2
+        },
+        {
+          "type": "minecraft:guardian",
+          "weight": 10,
+          "minCount": 1,
+          "maxCount": 2
+        },
+        {
+          "type": "minecraft:ghast",
+          "weight": 10,
+          "minCount": 1,
+          "maxCount": 2
+        },
+        {
+          "type": "minecraft:stray",
+          "weight": 10,
+          "minCount": 1,
+          "maxCount": 2
+        },
+        {
+          "type": "minecraft:pillager",
+          "weight": 10,
+          "minCount": 1,
+          "maxCount": 2
+        },
+        {
+          "type": "minecraft:cave_spider",
+          "weight": 10,
+          "minCount": 1,
+          "maxCount": 2
+        },
+        {
+          "type": "minecraft:evoker",
+          "weight": 10,
+          "minCount": 1,
+          "maxCount": 2
+        },
+        {
+          "type": "minecraft:vindicator",
+          "weight": 10,
+          "minCount": 1,
+          "maxCount": 2
+        },
+        {
+          "type": "minecraft:shulker",
+          "weight": 10,
+          "minCount": 1,
+          "maxCount": 2
+        },
+        {
+          "type": "minecraft:magma_cube",
+          "weight": 10,
+          "minCount": 1,
+          "maxCount": 2
+        },
+        {
+          "type": "minecraft:blaze",
+          "weight": 10,
+          "minCount": 1,
+          "maxCount": 2
+        }
+      ],
+      "underground_water_creature": [],
+      "water_ambient": [],
+      "water_creature": []
+    },
+    "spawn_costs": {},
+    "carvers": {
+      "air": [
+        "minecraft:cave",
+        "minecraft:canyon"
+      ]
+    },
+    "features": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          "nmr:small_tree"
+        ],
+        [
+          "nmr:small_tree",
+          "nmr:piler",
+          "nmr:cut_tree",
+          "nmr:dead_corals",
+          "minecraft:patch_sugar_cane",
+          "nmr:shrooms"
+        ],
+        [
+          "nmr:small_tree"
+        ]
+    ]
+  }
+  

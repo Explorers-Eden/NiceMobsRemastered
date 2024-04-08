@@ -17,16 +17,16 @@
         "offset": 2
       },
       "music": {
-        "sound": "minecraft:music.dragon",
+        "sound": "minecraft:music.overworld.dripstone_caves",
         "min_delay": 12000,
         "max_delay": 24000,
         "replace_current_music": true
       },
       "particle": {
         "options": {
-          "type": "sculk_soul"
+          "type": "end_rod"
         },
-        "probability": 0.0015
+        "probability": 0.0001
       }
     },
     "spawners": {
@@ -115,12 +115,6 @@
           "maxCount": 2
         },
         {
-          "type": "minecraft:husk",
-          "weight": 10,
-          "minCount": 1,
-          "maxCount": 2
-        },
-        {
           "type": "minecraft:cave_spider",
           "weight": 10,
           "minCount": 1,
@@ -151,20 +145,8 @@
           "maxCount": 2
         },
         {
-          "type": "minecraft:wither_skeleton",
-          "weight": 10,
-          "minCount": 1,
-          "maxCount": 2
-        },
-        {
           "type": "minecraft:blaze",
           "weight": 10,
-          "minCount": 1,
-          "maxCount": 2
-        },
-        {
-          "type": "minecraft:phantom",
-          "weight": 5,
           "minCount": 1,
           "maxCount": 2
         }
@@ -177,33 +159,31 @@
     "carvers": {
       "air": [
         "minecraft:cave",
+        "minecraft:cave_extra_underground",
         "minecraft:canyon"
       ]
     },
     "features": [
         [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
         [
-          "nmr:piler"
-        ],
-        [],
-        [],
-        [],
-        [],
-        [],
-        [],
-        [
-          "nmr:small_tree"
-        ],
-        [
-          "nmr:small_tree",
-          "nmr:cut_tree",
-          "nmr:dead_corals",
+          "minecraft:patch_tall_grass_2",
+          "minecraft:trees_plains",
+          "minecraft:flower_plains",
+          "minecraft:patch_grass_plain",
+          "minecraft:brown_mushroom_normal",
+          "minecraft:red_mushroom_normal",
           "minecraft:patch_sugar_cane",
-          "nmr:shrooms"
+          "minecraft:patch_pumpkin"
         ],
-        [
-          "nmr:small_tree"
-        ]
+        []
     ]
   }
   
