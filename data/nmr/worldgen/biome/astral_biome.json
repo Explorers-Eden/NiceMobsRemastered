@@ -1,0 +1,219 @@
+{
+    "temperature": 1.5,
+    "downfall": 0.4,
+    "has_precipitation": false,
+    "effects": {
+      "sky_color": 7485,
+      "fog_color": 2829893,
+      "water_color": 9408399,
+      "water_fog_color": 3355443,
+      "grass_color": 4933961,
+      "foliage_color": 2697513,
+      "mood_sound": {
+        "sound": "minecraft:ambient.cave",
+        "tick_delay": 6000,
+        "block_search_extent": 8,
+        "offset": 2
+      },
+      "music": {
+        "sound": "minecraft:music.dragon",
+        "min_delay": 12000,
+        "max_delay": 24000,
+        "replace_current_music": true
+      },
+      "particle": {
+        "options": {
+          "type": "sculk_soul"
+        },
+        "probability": 0.001
+      }
+    },
+    "spawners": {
+      "ambient": [],
+      "axolotls": [],
+      "creature": [],
+      "misc": [],
+      "monster": [
+        {
+          "type": "minecraft:spider",
+          "weight": 100,
+          "minCount": 1,
+          "maxCount": 2
+        },
+        {
+          "type": "minecraft:zombie",
+          "weight": 95,
+          "minCount": 1,
+          "maxCount": 2
+        },
+        {
+          "type": "minecraft:zombie_villager",
+          "weight": 5,
+          "minCount": 1,
+          "maxCount": 2
+        },
+        {
+          "type": "minecraft:skeleton",
+          "weight": 100,
+          "minCount": 1,
+          "maxCount": 2
+        },
+        {
+          "type": "minecraft:creeper",
+          "weight": 100,
+          "minCount": 1,
+          "maxCount": 2
+        },
+        {
+          "type": "minecraft:slime",
+          "weight": 100,
+          "minCount": 1,
+          "maxCount": 2
+        },
+        {
+          "type": "minecraft:enderman",
+          "weight": 10,
+          "minCount": 1,
+          "maxCount": 2
+        },
+        {
+          "type": "minecraft:witch",
+          "weight": 5,
+          "minCount": 1,
+          "maxCount": 2
+        },
+        {
+          "type": "minecraft:drowned",
+          "weight": 80,
+          "minCount": 1,
+          "maxCount": 2
+        },
+        {
+          "type": "minecraft:guardian",
+          "weight": 50,
+          "minCount": 1,
+          "maxCount": 2
+        },
+        {
+          "type": "minecraft:piglin",
+          "weight": 50,
+          "minCount": 1,
+          "maxCount": 2
+        },
+        {
+          "type": "minecraft:piglin_brute",
+          "weight": 20,
+          "minCount": 1,
+          "maxCount": 2
+        },
+        {
+          "type": "minecraft:ghast",
+          "weight": 35,
+          "minCount": 1,
+          "maxCount": 2
+        },
+        {
+          "type": "minecraft:stray",
+          "weight": 100,
+          "minCount": 1,
+          "maxCount": 2
+        },
+        {
+          "type": "minecraft:pillager",
+          "weight": 5,
+          "minCount": 1,
+          "maxCount": 2
+        },
+        {
+          "type": "minecraft:husk",
+          "weight": 100,
+          "minCount": 1,
+          "maxCount": 2
+        },
+        {
+          "type": "minecraft:cave_spider",
+          "weight": 100,
+          "minCount": 1,
+          "maxCount": 2
+        },
+        {
+          "type": "minecraft:phantom",
+          "weight": 40,
+          "minCount": 1,
+          "maxCount": 2
+        },
+        {
+          "type": "minecraft:evoker",
+          "weight": 20,
+          "minCount": 1,
+          "maxCount": 2
+        },
+        {
+          "type": "minecraft:vindicator",
+          "weight": 20,
+          "minCount": 1,
+          "maxCount": 2
+        },
+        {
+          "type": "minecraft:shulker",
+          "weight": 25,
+          "minCount": 1,
+          "maxCount": 2
+        },
+        {
+          "type": "minecraft:magma_cube",
+          "weight": 80,
+          "minCount": 1,
+          "maxCount": 2
+        },
+        {
+          "type": "minecraft:wither_skeleton",
+          "weight": 75,
+          "minCount": 1,
+          "maxCount": 2
+        },
+        {
+          "type": "minecraft:blaze",
+          "weight": 50,
+          "minCount": 1,
+          "maxCount": 2
+        }
+      ],
+      "underground_water_creature": [],
+      "water_ambient": [],
+      "water_creature": []
+    },
+    "spawn_costs": {},
+    "carvers": {
+      "air": [
+        "minecraft:cave",
+        "minecraft:canyon"
+      ]
+    },
+    "features": [
+        [],
+        [
+          "nmr:piler"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [
+          "minecraft:patch_soul_fire",
+          "minecraft:sculk_vein"
+        ],
+        [],
+        [
+          "nmr:small_tree"
+        ],
+        [
+          "nmr:small_tree",
+          "nmr:cut_tree"
+        ],
+        [
+          "nmr:small_tree"
+        ]
+    ]
+  }
+  

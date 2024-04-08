@@ -1,0 +1,11 @@
+{
+  "type": "nmr:astral_plane",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "nmr:astral_plane",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "nmr:astral_biome"
+    }
+  }
+}

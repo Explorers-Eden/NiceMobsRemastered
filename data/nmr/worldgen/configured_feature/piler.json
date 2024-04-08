@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:block_pile",
+	"config": {
+		"state_provider": {
+			"type": "minecraft:weighted_state_provider",
+			"entries": [
+				{
+					"weight": 1,
+					"data": {
+						"Name": "minecraft:cobweb"
+					}
+				},
+				{
+					"weight": 2,
+					"data": {
+						"Name": "minecraft:bone_block"
+					}
+				}
+			]
+		}
+	}
+}
