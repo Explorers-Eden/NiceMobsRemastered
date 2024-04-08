@@ -1,7 +1,7 @@
 {
     "type": "minecraft:jigsaw",
     "step": "surface_structures",
-    "biomes": "#nmr:has_structure/astral_plane_campsides",
+    "biomes": "nmr:astral_biome",
     "start_pool": "nmr:astral_plane_campsides",
     "terrain_adaptation": "beard_box",
     "size": 7,
