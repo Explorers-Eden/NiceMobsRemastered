@@ -5,5 +5,6 @@ function nmr:spawn_particles/run
 function nmr:health_display/run
 function nmr:biome_levels/run
 function nmr:nitwit/animations
+function nmr:celestial_watcher/entity/animations
 
-schedule function nmr:schedules/schedule_1t 1t
+schedule function nmr:schedules/schedule_1t 1t 

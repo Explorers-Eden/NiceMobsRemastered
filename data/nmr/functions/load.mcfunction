@@ -1,6 +1,7 @@
 ##add scoreboards
 scoreboard objectives add nmr.technical dummy
 scoreboard objectives add nmr.piglinaut.killcount dummy
+scoreboard objectives add nmr.celestialwatcher.circling dummy
 scoreboard objectives add nmr.health.base dummy
 scoreboard objectives add nmr.health.current dummy
 scoreboard objectives add nmr.health.temp dummy
