@@ -4,8 +4,8 @@
     "has_precipitation": false,
     "creature_spawn_probability": 0.001,
     "effects": {
-      "sky_color": 200742,
-      "fog_color": 726050,
+      "sky_color": 206435,
+      "fog_color": 1979223,
       "water_color": 1907484,
       "water_fog_color": 3355443,
       "grass_color": 4933961,
@@ -159,7 +159,8 @@
     "carvers": {
       "air": [
         "minecraft:cave",
-        "minecraft:canyon"
+        "minecraft:canyon",
+        "minecraft:nether_cave"
       ]
     },
     "features": [
@@ -172,17 +173,19 @@
         [],
         [],
         [
-          "nmr:small_tree"
+          "nmr:small_tree",
+          "nmr:jungle_bush"
         ],
         [
           "nmr:small_tree",
-          "nmr:piler",
           "nmr:cut_tree",
           "nmr:dead_corals",
+          "nmr:jungle_grass",
           "minecraft:patch_sugar_cane",
           "nmr:shrooms"
         ],
         [
+          "nmr:piler",
           "nmr:small_tree"
         ]
     ]

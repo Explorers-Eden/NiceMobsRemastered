@@ -1,7 +1,7 @@
 $execute if biome ~ ~ ~ #nmr:groups/default run scoreboard players set $multiplier nmr.technical 10$(level)
 $execute if biome ~ ~ ~ #nmr:groups/flower run scoreboard players set $multiplier nmr.technical 10$(level)
-$execute unless biome ~ ~ ~ #nmr:groups/default unless biome ~ ~ ~ #nmr:groups/flower unless biome ~ ~ ~ nmr:astral_biome run scoreboard players set $multiplier nmr.technical 1$(level)
-$execute if biome ~ ~ ~ nmr:astral_biome run scoreboard players set $multiplier nmr.technical $(level)
+$execute unless biome ~ ~ ~ #nmr:groups/default unless biome ~ ~ ~ #nmr:groups/flower unless dimension nmr:astral_plane run scoreboard players set $multiplier nmr.technical 1$(level)
+$execute if dimension nmr:astral_plane run scoreboard players set $multiplier nmr.technical $(level)
 
 function nmr:biome_levels/get_type
 

@@ -45,7 +45,11 @@ execute unless dimension nmr:astral_plane if biome ~ ~ ~ minecraft:soul_sand_val
 execute unless dimension nmr:astral_plane if biome ~ ~ ~ #nmr:groups/end store result storage nmr:biome_levels level int 1 run random value 89..99
 execute unless dimension nmr:astral_plane if biome ~ ~ ~ #nmr:groups/end run tag @s add exp_89_99
 
-execute if dimension nmr:astral_plane if biome ~ ~ ~ nmr:astral_biome store result storage nmr:biome_levels level int 1 run random value 100..250
-execute if dimension nmr:astral_plane if biome ~ ~ ~ nmr:astral_biome run tag @s add exp_100_250
+execute if dimension nmr:astral_plane if biome ~ ~ ~ nmr:astral_plains store result storage nmr:biome_levels level int 1 run random value 100..150
+execute if dimension nmr:astral_plane if biome ~ ~ ~ nmr:astral_plains run tag @s add exp_100_150
+execute if dimension nmr:astral_plane if biome ~ ~ ~ nmr:astral_jungle store result storage nmr:biome_levels level int 1 run random value 151..200
+execute if dimension nmr:astral_plane if biome ~ ~ ~ nmr:astral_jungle run tag @s add exp_151_200
+execute if dimension nmr:astral_plane if biome ~ ~ ~ nmr:astral_desert store result storage nmr:biome_levels level int 1 run random value 201..250
+execute if dimension nmr:astral_plane if biome ~ ~ ~ nmr:astral_desert run tag @s add exp_201_250
 
 function nmr:biome_levels/get_data with storage nmr:biome_levels

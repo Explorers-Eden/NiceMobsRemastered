@@ -100,12 +100,6 @@
                 "waterlogged": "false"
               }
             }
-          },
-          {
-            "weight": 1,
-            "data": {
-              "Name": "minecraft:wither_rose"
-            }
           }
         ]
     }
