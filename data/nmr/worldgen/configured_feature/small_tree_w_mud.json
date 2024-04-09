@@ -78,6 +78,50 @@
 		{
 		  "type": "minecraft:leave_vine",
 		  "probability": 0.1
+		},
+		{
+		  "type": "minecraft:alter_ground",
+		  "provider": {
+			"type": "minecraft:weighted_state_provider",
+			"entries": [
+			  {
+				"weight": 50,
+				"data": {
+				  "Name": "minecraft:muddy_mangrove_roots",
+				  "Properties": {
+					"axis": "y"
+				  }
+				}
+			  },
+			  {
+				"weight": 3,
+				"data": {
+				  "Name": "minecraft:mangrove_roots",
+				  "Properties": {
+					"waterlogged": "false"
+				  }
+				}
+			  },
+			  {
+				"weight": 50,
+				"data": {
+				  "Name": "minecraft:muddy_mangrove_roots",
+				  "Properties": {
+					"axis": "x"
+				  }
+				}
+			  },
+			  {
+				"weight": 50,
+				"data": {
+				  "Name": "minecraft:muddy_mangrove_roots",
+				  "Properties": {
+					"axis": "z"
+				  }
+				}
+			  }
+			]
+		  }
 		}
 	  ]
 	}

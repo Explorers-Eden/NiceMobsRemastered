@@ -174,7 +174,8 @@
         ],
         [
           "minecraft:patch_dead_bush_2",
-          "nmr:wither_rose"
+          "nmr:wither_rose",
+          "nmr:light_piler"
         ],
         []
     ]

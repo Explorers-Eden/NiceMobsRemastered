@@ -1,5 +1,5 @@
 {
-    "name": "nmr:astral_plane_skeleton",
+    "name": "nmr:astral_plane_skeletons",
     "fallback": "minecraft:empty",
     "elements": [
         {

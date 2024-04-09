@@ -171,7 +171,9 @@
         [],
         [],
         [],
-        [],
+        [
+          "nmr:sculk_patch"
+        ],
         [],
         [
           "nmr:soul_fire"
@@ -181,7 +183,8 @@
           "nmr:dead_corals",
           "minecraft:patch_tall_grass_2",
           "minecraft:patch_grass_plain",
-          "minecraft:patch_sugar_cane"
+          "minecraft:patch_sugar_cane",
+          "nmr:light_piler"
         ],
         []
     ]
