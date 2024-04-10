@@ -49,6 +49,8 @@ execute if dimension nmr:astral_plane if biome ~ ~ ~ nmr:astral_plains store res
 execute if dimension nmr:astral_plane if biome ~ ~ ~ nmr:astral_plains run tag @s add exp_100_150
 execute if dimension nmr:astral_plane if biome ~ ~ ~ nmr:astral_jungle store result storage nmr:biome_levels level int 1 run random value 151..200
 execute if dimension nmr:astral_plane if biome ~ ~ ~ nmr:astral_jungle run tag @s add exp_151_200
+execute if dimension nmr:astral_plane if biome ~ ~ ~ nmr:astral_forest store result storage nmr:biome_levels level int 1 run random value 151..200
+execute if dimension nmr:astral_plane if biome ~ ~ ~ nmr:astral_forest run tag @s add exp_151_200
 execute if dimension nmr:astral_plane if biome ~ ~ ~ nmr:astral_desert store result storage nmr:biome_levels level int 1 run random value 201..250
 execute if dimension nmr:astral_plane if biome ~ ~ ~ nmr:astral_desert run tag @s add exp_201_250
 

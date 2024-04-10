@@ -187,6 +187,7 @@
         ],
         [],
         [
+          "nmr:ore_piler",
           "nmr:sculk_patch",
           "nmr:reinforced_trees"
         ],
@@ -195,7 +196,7 @@
           "nmr:soul_fire"
         ],
         [
-          "nmr:dead_corals",
+          "nmr:forest_vegetation",
           "minecraft:patch_tall_grass_2",
           "minecraft:patch_grass_plain",
           "nmr:light_piler"

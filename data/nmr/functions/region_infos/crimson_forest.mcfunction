@@ -22,3 +22,7 @@ advancement revoke @s only nmr:technical/regions/warped_forest
 advancement revoke @s only nmr:technical/regions/basalt_deltas
 advancement revoke @s only nmr:technical/regions/soul_sand_valley
 advancement revoke @s only nmr:technical/regions/end
+advancement revoke @s only nmr:technical/regions/astral_desert
+advancement revoke @s only nmr:technical/regions/astral_forest
+advancement revoke @s only nmr:technical/regions/astral_jungle
+advancement revoke @s only nmr:technical/regions/astral_plains

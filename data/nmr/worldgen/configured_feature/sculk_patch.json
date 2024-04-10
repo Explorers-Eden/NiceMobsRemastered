@@ -11,7 +11,7 @@
         "min_inclusive": 0,
         "max_inclusive": 1
       },
-      "catalyst_chance": 0.00000001
+      "catalyst_chance": 0
     }
   }
   
