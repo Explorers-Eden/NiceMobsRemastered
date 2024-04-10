@@ -1,0 +1,21 @@
+{
+    "feature": "nmr:reinforced_trees_small",
+    "placement": [
+      {
+        "type": "minecraft:block_predicate_filter",
+        "predicate": {
+          "type": "minecraft:matching_blocks",
+          "offset": [
+            0,
+            -1,
+            0
+          ],
+          "blocks": [
+            "minecraft:mud",
+            "minecraft:sculk"
+          ]
+        }
+      }
+    ]
+  }
+  

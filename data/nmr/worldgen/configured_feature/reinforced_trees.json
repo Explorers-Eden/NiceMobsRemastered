@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:random_selector",
+    "config": {
+      "features": [
+        {
+          "chance": 0.5,
+          "feature": "nmr:reinforced_trees_tall"
+        }
+      ],
+      "default": "nmr:reinforced_trees_small"
+    }
+  }
+  
