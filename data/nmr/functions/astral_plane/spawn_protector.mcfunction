@@ -1,0 +1,1 @@
+execute as @e[type=vex] at @s if dimension nmr:astral_plane run function nmr:astral_plane/spawn_protector
