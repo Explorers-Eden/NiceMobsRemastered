@@ -20,9 +20,9 @@ execute as @e[type=vex,tag=nmr_celestial_watcher] at @s run data modify entity @
 execute as @e[type=vex,tag=nmr_celestial_watcher] at @s run data modify entity @s BoundY set from entity @p[distance=..48,limit=1,sort=nearest] Pos[1]
 execute as @e[type=vex,tag=nmr_celestial_watcher] at @s run data modify entity @s BoundZ set from entity @p[distance=..48,limit=1,sort=nearest] Pos[2]
 execute as @e[type=vex,tag=nmr_celestial_watcher] at @s unless data entity @s Passengers run kill @s
-execute as @e[type=item_display,tag=nmr_celestial_watcher_red] at @s positioned ^ ^-.8 ^-1 anchored feet run particle dust 0.847 0.286 0.267 1 ~ ~ ~ .3 .3 .3 0 3
-execute as @e[type=item_display,tag=nmr_celestial_watcher_green] at @s positioned ^ ^-.8 ^-1 anchored feet run particle dust 0.125 0.855 0.455 1 ~ ~ ~ .3 .3 .3 0 3
-execute as @e[type=item_display,tag=nmr_celestial_watcher_purple] at @s positioned ^ ^-.8 ^-1 anchored feet run particle dust 0.627 0.078 0.769 1 ~ ~ ~ .3 .3 .3 0 3
-execute as @e[type=item_display,tag=nmr_celestial_watcher_orange] at @s positioned ^ ^-.8 ^-1 anchored feet run particle dust 0.878 0.576 0.125 1 ~ ~ ~ .3 .3 .3 0 3
-execute as @e[type=item_display,tag=nmr_celestial_watcher_blue] at @s positioned ^ ^-.8 ^-1 anchored feet run particle dust 0.255 0.859 0.969 1 ~ ~ ~ .3 .3 .3 0 3
-execute as @e[type=item_display,tag=nmr_celestial_watcher_head] at @s positioned ^ ^-.8 ^-1 anchored feet run particle dust 0.973 0.792 0.792 1 ~ ~ ~ .3 .3 .3 0 3
+execute as @e[type=item_display,tag=nmr_celestial_watcher_red] at @s positioned ^ ^-.8 ^-1 anchored feet run particle dust{color:[0.847,0.286,0.267],scale: 1} ~ ~ ~ .3 .3 .3 0 3
+execute as @e[type=item_display,tag=nmr_celestial_watcher_green] at @s positioned ^ ^-.8 ^-1 anchored feet run particle dust{color:[0.125,0.855,0.455],scale: 1} ~ ~ ~ .3 .3 .3 0 3
+execute as @e[type=item_display,tag=nmr_celestial_watcher_purple] at @s positioned ^ ^-.8 ^-1 anchored feet run particle dust{color:[0.627,0.078,0.769],scale: 1} ~ ~ ~ .3 .3 .3 0 3
+execute as @e[type=item_display,tag=nmr_celestial_watcher_orange] at @s positioned ^ ^-.8 ^-1 anchored feet run particle dust{color:[0.878,0.576,0.125],scale: 1} ~ ~ ~ .3 .3 .3 0 3
+execute as @e[type=item_display,tag=nmr_celestial_watcher_blue] at @s positioned ^ ^-.8 ^-1 anchored feet run particle dust{color:[0.255,0.859,0.969],scale: 1} ~ ~ ~ .3 .3 .3 0 3
+execute as @e[type=item_display,tag=nmr_celestial_watcher_head] at @s positioned ^ ^-.8 ^-1 anchored feet run particle dust{color:[0.973,0.792,0.792],scale: 1} ~ ~ ~ .3 .3 .3 0 3

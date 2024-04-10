@@ -1,5 +1,5 @@
-execute as @s at @e[type=vex,tag=nmr_golden_guardian,sort=nearest,nbt={HurtTime:10s},limit=1] run particle dust 0.973 0.161 0.055 1 ~ ~ ~ 1.2 1.2 1.2 0 150
-execute as @s at @e[type=vex,tag=nmr_golden_guardian,sort=nearest,nbt={HurtTime:10s},limit=1] run particle dust 0 0 0 1.5 ~ ~ ~ 1 1 1 0 50
+execute as @s at @e[type=vex,tag=nmr_golden_guardian,sort=nearest,nbt={HurtTime:10s},limit=1] run particle dust{color:[0.973,0.161,0.055],scale: 1} ~ ~ ~ 1.2 1.2 1.2 0 150
+execute as @s at @e[type=vex,tag=nmr_golden_guardian,sort=nearest,nbt={HurtTime:10s},limit=1] run particle dust{color:[0,0,0],scale: 1.5} ~ ~ ~ 1 1 1 0 50
 
 execute as @s at @e[type=vex,tag=nmr_golden_guardian,sort=nearest,nbt={HurtTime:10s},limit=1] run playsound entity.elder_guardian.hurt hostile @a ~ ~ ~ 1 0.3
 

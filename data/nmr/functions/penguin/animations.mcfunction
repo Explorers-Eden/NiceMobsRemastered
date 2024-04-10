@@ -10,5 +10,5 @@ function nmr:penguin/breathing
 execute as @e[type=pillager,tag=nmr_penguin] at @s unless data entity @s Passengers run kill @s
 
 execute as @e[type=pillager,tag=nmr_penguin] at @s if block ~ ~-.5 ~ water if block ~ ~.5 ~ air run particle splash ~ ~.3 ~ .5 .3 .5 0 50
-execute as @e[type=pillager,tag=nmr_penguin] at @s if block ~ ~-.5 ~ water if block ~ ~.5 ~ air run particle dust 0.8 0.957 0.961 1.2 ~ ~.3 ~ .6 .2 .6 0.2 25
+execute as @e[type=pillager,tag=nmr_penguin] at @s if block ~ ~-.5 ~ water if block ~ ~.5 ~ air run particle dust{color:[0.8,0.957,0.961],scale: 1.2} ~ ~.3 ~ .6 .2 .6 0.2 25
 execute as @e[type=pillager,tag=nmr_penguin] at @s if block ~ ~ ~ water run tp ~ ~.6 ~

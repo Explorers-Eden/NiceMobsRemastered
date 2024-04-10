@@ -9,7 +9,7 @@
               "entity": "this",
               "predicate": {
                 "location": {
-                  "biomes": "nminecraft:nether_wastes"
+                  "biomes": "minecraft:nether_wastes"
                 }
               }
             }
