@@ -1,5 +1,5 @@
 {
-    "feature": "nmr:reinforced_trees_small",
+    "feature": "nmr:forest_trees_small",
     "placement": [
       {
         "type": "minecraft:block_predicate_filter",

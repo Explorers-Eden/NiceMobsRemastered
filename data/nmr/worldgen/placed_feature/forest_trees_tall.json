@@ -1,5 +1,5 @@
 {
-	"feature": "nmr:reinforced_trees_tall",
+	"feature": "nmr:forest_trees_tall",
 	"placement": [
 	  {
 		"type": "minecraft:block_predicate_filter",
