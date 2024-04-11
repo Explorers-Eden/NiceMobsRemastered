@@ -1,1 +1,1 @@
-execute as @e[type=player,predicate=!nmr:entity/is_riding_horse] at @s anchored feet facing entity @e[type=horse,distance=..3,nbt={Tame:1b}] feet positioned ^ ^ ^1 rotated as @s positioned ^ ^ ^-1 if entity @s[distance=..0.5] run function nmr:horse_info/get_data
+execute as @e[type=player,predicate=!nmr:entity/is_riding_horse,predicate=nmr:entity/looking_at_tamed_horse] at @s run function nmr:horse_info/get_data

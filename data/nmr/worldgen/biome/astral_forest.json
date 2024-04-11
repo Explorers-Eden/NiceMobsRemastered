@@ -189,10 +189,10 @@
         [
           "nmr:ore_piler",
           "nmr:sculk_patch",
-          "nmr:reinforced_trees"
+          "nmr:forest_trees"
         ],
         [
-          "nmr:reinforced_trees",
+          "nmr:forest_trees",
           "nmr:soul_fire"
         ],
         [

@@ -15,5 +15,7 @@ function nmr:redstone_ghost/animations
 function nmr:hermit_crab/animations
 function nmr:penguin/animations
 function nmr:fireflies/animations
+function nmr:hedgehog/animations
+function nmr:celestial_watcher/structure/portal/run
 
 schedule function nmr:schedules/schedule_3t 3t
