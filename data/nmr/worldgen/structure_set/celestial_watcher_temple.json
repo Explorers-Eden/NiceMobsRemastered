@@ -6,10 +6,11 @@
       }
     ],
     "placement": {
-      "type": "minecraft:random_spread",
-      "spacing": 80,
-      "separation": 20,
-      "spread_type": "triangular",
-      "salt": 6942069
+      "type": "minecraft:concentric_rings",
+      "salt": 0,
+      "distance": 32,
+      "spread": 3,
+      "count": 128,
+      "preferred_biomes": "#nmr:has_structure/celestial_watcher_temple"
     }
   }
