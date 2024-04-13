@@ -24,9 +24,9 @@
       },
       "particle": {
         "options": {
-          "type": "end_rod"
+          "type": "soul"
         },
-        "probability": 0.0005
+        "probability": 0.001
       }
     },
     "spawners": {

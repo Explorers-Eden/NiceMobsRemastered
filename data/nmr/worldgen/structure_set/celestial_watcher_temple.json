@@ -10,7 +10,7 @@
       "salt": 0,
       "distance": 32,
       "spread": 3,
-      "count": 128,
+      "count": 256,
       "preferred_biomes": "#nmr:has_structure/celestial_watcher_temple"
     }
   }

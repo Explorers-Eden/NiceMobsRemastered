@@ -1,0 +1,7 @@
+{
+    "values": [
+      { "id": "nmr:astral_forest","required": false},
+      { "id": "nmr:astral_jungle","required": false},
+      { "id": "nmr:astral_plains","required": false}
+    ]
+  }

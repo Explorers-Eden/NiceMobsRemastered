@@ -1,4 +1,8 @@
 ##add scoreboards
+scoreboard objectives add nmr.astralplane.portal.pos.set dummy
+scoreboard objectives add nmr.astralplane.portal.pos.x dummy
+scoreboard objectives add nmr.astralplane.portal.pos.y dummy
+scoreboard objectives add nmr.astralplane.portal.pos.z dummy
 scoreboard objectives add nmr.technical dummy
 scoreboard objectives add nmr.piglinaut.killcount dummy
 scoreboard objectives add nmr.celestialwatcher.circling dummy

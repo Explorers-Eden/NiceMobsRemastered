@@ -1,1 +1,0 @@
-execute as @e[type=vex,predicate=nmr:world/in_astral_plane,tag=!nmr_celestial_protector] at @s run function nmr:astral_plane/spawn_protector
