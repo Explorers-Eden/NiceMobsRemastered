@@ -1,0 +1,30 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:player_hurt_entity",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "dimension": "nmr:astral_plane"
+                }
+              }
+            }
+          ],
+          "entity": {
+            "type": "#nmr:has_health_display",
+            "location": {
+              "dimension": "nmr:astral_plane"
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "nmr:astral_plane/entities/player_hit_entity"
+    }
+  }
+  
