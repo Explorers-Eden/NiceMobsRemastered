@@ -1,0 +1,1 @@
+execute as @e[type=#nmr:has_health_display,tag=!nmr_loot_modified] run function nmr:astral_plane/entities/modify_loot_tables
