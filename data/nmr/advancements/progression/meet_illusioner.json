@@ -1,21 +1,19 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:player_head",
-        "nbt": "{SkullOwner:{Id:[I;-617609329,1490897422,-1127698747,-881369599],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDYzOWQzMjVmNDQ5NDI1OGE0NzNhOTNhM2I0N2YzNGEwYzUxYjNmY2VhZjU5ZmVlODcyMDVhNWU3ZmYzMWY2OCJ9fX0=\"}]}}}"
-      },
-      "title": "Undercover agent",
-      "description": "Expose an illusioner",
-      "background": "minecraft:textures/block/mud_bricks.png",
-      "show_toast": true,
-      "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:emerald"
     },
-    "parent": "nmv:progression/root",
-    "criteria": {
-      "requirement": {
-        "trigger": "minecraft:impossible",
-        "conditions": {}
-      }
+    "title": "Undercover agent",
+    "description": "Expose an illusioner",
+    "background": "minecraft:textures/block/mud_bricks.png",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "nmr:progression/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible",
+      "conditions": {}
     }
   }
-  
+}

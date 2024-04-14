@@ -1,21 +1,20 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:ender_eye"
-      },
-      "title": "Eye-eye captain!",
-      "description": "Summon a celestial watcher",
-      "background": "minecraft:textures/block/mud_bricks.png",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "id": "minecraft:ender_eye"
     },
-    "parent": "nmr:progression/celestial_temple",
-    "criteria": {
-      "requirement": {
-        "trigger": "minecraft:impossible",
-        "conditions": {}
-      }
+    "title": "Eye-eye captain!",
+    "description": "Summon a celestial watcher",
+    "background": "minecraft:textures/block/mud_bricks.png",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "nmr:progression/celestial_temple",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible",
+      "conditions": {}
     }
   }
-  
+}

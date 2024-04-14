@@ -1,21 +1,20 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:end_portal_frame"
-      },
-      "title": "I got my eye on you",
-      "description": "Step in a celestial temple",
-      "background": "minecraft:textures/block/mud_bricks.png",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "id": "minecraft:end_portal_frame"
     },
-    "parent": "nmv:progression/root",
-    "criteria": {
-      "requirement": {
-        "trigger": "minecraft:impossible",
-        "conditions": {}
-      }
+    "title": "I got my eye on you",
+    "description": "Step in a celestial temple",
+    "background": "minecraft:textures/block/mud_bricks.png",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "nmr:progression/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible",
+      "conditions": {}
     }
   }
-  
+}
