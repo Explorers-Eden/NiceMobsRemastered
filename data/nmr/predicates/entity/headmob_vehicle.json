@@ -46,6 +46,16 @@
               "nbt": "{Tags:[\"nmr_celestial_watcher_sides\"]}"
             }
           }
+        },
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "vehicle": {
+              "type": "elder_guardian",
+              "nbt": "{Tags:[\"nmr_marker_set\"]}"
+            }
+          }
         }
       ]
     }

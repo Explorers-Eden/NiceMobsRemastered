@@ -1,5 +1,4 @@
 execute unless entity @e[type=piglin,tag=nmr_golden_guardian_rider] run return fail
-execute as @e[type=piglin,tag=nmr_golden_guardian_rider] at @s run function nmr:golden_guardian/get_bossbar_data
 execute as @e[type=piglin,tag=nmr_golden_guardian_rider] at @s run tp @s ~ ~ ~ facing entity @p[distance=..48,limit=1,sort=nearest]
 execute as @e[type=piglin,tag=nmr_golden_guardian_rider] at @s unless entity @e[type=item_display,tag=nmr_golden_guardian_head,distance=..3] run kill @s
 

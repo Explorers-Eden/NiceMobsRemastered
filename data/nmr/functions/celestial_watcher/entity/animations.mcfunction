@@ -8,7 +8,6 @@ execute as @e[type=item_display,tag=nmr_celestial_watcher_sides] at @s run tp @s
 execute as @e[tag=nmr_celestial_watcher_bullet] at @s run particle dripping_water ~ ~.1 ~ .1 .1 .1 0 1
 execute if predicate nmr:percentages/10percent as @e[type=item_display,tag=nmr_headmob_addon_1] at @s positioned ^2 ^-.9 ^ run particle end_rod ~ ~ ~ .6 .6 .6 0 1
 execute if predicate nmr:percentages/10percent as @e[type=item_display,tag=nmr_headmob_addon_2] at @s positioned ^-2 ^-.9 ^ run particle end_rod ~ ~ ~ .6 .6 .6 0 1
-execute as @e[type=item_display,tag=nmr_headmob_addon_2] at @s run function nmr:celestial_watcher/entity/get_bossbar_data
 
 execute as @e[type=player] at @s unless entity @e[type=item_display,tag=nmr_celestial_watcher_head,distance=..48] run return fail
 execute as @e[type=item_display,tag=nmr_celestial_watcher_head,predicate=!nmr:entity/headmob_vehicle] run kill @s
