@@ -14,5 +14,6 @@ function nmr:mooshrooms/run
 function nmr:treasure_pig/run
 function nmr:end_phantoms/run
 function nmr:hedgehog/run
+function nmr:triggers
 
 schedule function nmr:schedules/schedule_3s 3s

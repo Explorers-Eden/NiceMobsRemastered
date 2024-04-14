@@ -1,4 +1,5 @@
-title @s actionbar [{"text":"- ","color":"dark_gray","bold":false,"italic":false},{"text":"Region Level: 89-99","color":"#736C6C","bold":false,"italic":false},{"text":" -","color":"dark_gray","bold":false,"italic":false}]
+scoreboard players enable @s region_info
+execute unless score @s region_info matches 1 run title @s actionbar [{"text":"- ","color":"dark_gray","bold":false,"italic":false},{"text":"Region Level: 89-99","color":"#736C6C","bold":false,"italic":false},{"text":" -","color":"dark_gray","bold":false,"italic":false}]
 
 advancement revoke @s only nmr:technical/regions/default
 advancement revoke @s only nmr:technical/regions/flower
