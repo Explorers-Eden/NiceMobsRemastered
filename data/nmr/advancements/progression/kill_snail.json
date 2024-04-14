@@ -8,7 +8,7 @@
     "background": "minecraft:textures/block/mud_bricks.png",
     "show_toast": true,
     "announce_to_chat": true,
-    "hidden": true
+    "hidden": false
   },
   "parent": "nmr:progression/meet_snail",
   "criteria": {
