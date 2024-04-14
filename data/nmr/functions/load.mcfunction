@@ -3,6 +3,8 @@ scoreboard objectives add region_info trigger
 scoreboard objectives modify region_info displayname "Region Info Display Toggle"
 scoreboard objectives add horse_stats trigger
 scoreboard objectives modify horse_stats displayname "Horse Stats Display Toggle"
+scoreboard objectives add villager_dismount trigger
+scoreboard objectives modify villager_dismount displayname "Right Click Villager Dismount Toggle"
 
 ##add scoreboards
 scoreboard objectives add nmr.astralplane.portal.pos.set dummy
