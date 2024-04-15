@@ -5,6 +5,9 @@ execute as @e[type=player] at @s unless entity @e[predicate=nmr:entity/is_boss,d
 ## Celestial Watcher
 execute as @e[type=item_display,tag=nmr_headmob_addon_2] at @s run function nmr:bossbars/celestial_watcher/get_data
 
+## Amemasu
+execute as @e[type=item_display,tag=nmr_headmob_head] at @s run function nmr:bossbars/amemasu/get_data
+
 ## Golden Guardian
 execute as @e[type=piglin,tag=nmr_golden_guardian_rider] at @s run function nmr:bossbars/golden_guardian/get_data
 

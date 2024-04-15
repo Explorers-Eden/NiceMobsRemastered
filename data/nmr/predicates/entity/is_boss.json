@@ -29,6 +29,13 @@
           "predicate": {
             "nbt": "{Tags:[\"nmr_golden_guardian_rider\"]}"
           }
+        },
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "nbt": "{Tags:[\"nmr_amemasu_head\"]}"
+          }
         }
       ]
     }
