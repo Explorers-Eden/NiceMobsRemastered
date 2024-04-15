@@ -18,5 +18,6 @@ function nmr:fireflies/animations
 function nmr:hedgehog/animations
 function nmr:celestial_watcher/structure/portal/run
 function nmr:astral_plane/portal/run
+function nmr:amemasu/animations
 
 schedule function nmr:schedules/schedule_3t 3t

@@ -46,5 +46,6 @@ summon item ~ ~ ~ {Item:{id:"minecraft:knowledge_book",count:1,components:{"mine
 playsound minecraft:ui.toast.challenge_complete player @a ~ ~ ~ .7 2
 particle poof ~ ~-1 ~ .5 .75 .5 0.01 150
 
+advancement grant @e[type=player,advancements={nmr:progression/nitwit_quest=false},distance=..6] only nmr:progression/nitwit_quest
 tp @e[type=villager,nbt={VillagerData:{profession:"minecraft:nitwit"}},limit=1,sort=nearest] ~ ~-5000 ~
 kill @e[type=villager,nbt={VillagerData:{profession:"minecraft:nitwit"}},limit=1,sort=nearest]

@@ -3,8 +3,8 @@
       "icon": {
         "id": "minecraft:piglin_head"
       },
-      "title": "A small step for a piglin",
-      "description": "Find a piglinaut",
+      "title": "A small step for a Piglin",
+      "description": "Find the Piglinauts",
       "background": "minecraft:textures/block/mud_bricks.png",
       "show_toast": true,
       "announce_to_chat": true,

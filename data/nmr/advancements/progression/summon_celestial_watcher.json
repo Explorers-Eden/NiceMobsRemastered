@@ -4,7 +4,7 @@
       "id": "minecraft:ender_eye"
     },
     "title": "Eye-eye captain!",
-    "description": "Summon a celestial watcher",
+    "description": "Summon a Celestial Watcher",
     "background": "minecraft:textures/block/mud_bricks.png",
     "show_toast": true,
     "announce_to_chat": true,

@@ -4,7 +4,7 @@
       "id": "minecraft:rabbit_foot"
     },
     "title": "Who's got the grenade!?",
-    "description": "Hurt a killer bunny",
+    "description": "Hurt a Killer Bunny",
     "background": "minecraft:textures/block/mud_bricks.png",
     "show_toast": true,
     "announce_to_chat": true,

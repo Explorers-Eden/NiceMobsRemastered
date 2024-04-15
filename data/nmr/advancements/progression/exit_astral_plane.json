@@ -1,0 +1,20 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:grass_block"
+      },
+      "title": "Home! Sweet Home!",
+      "description": "Exit the Astral Plane safely",
+      "background": "minecraft:textures/block/mud_bricks.png",
+      "show_toast": true,
+      "announce_to_chat": true
+    },
+    "parent": "nmr:progression/enter_astral_plane",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible",
+        "conditions": {}
+      }
+    }
+  }
+  

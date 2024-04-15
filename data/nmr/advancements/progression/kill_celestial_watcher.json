@@ -4,8 +4,9 @@
       "id": "minecraft:ender_eye"
     },
     "title": "B-eye now!",
-    "description": "Kill a celestial watcher",
+    "description": "Kill a Celestial Watcher",
     "background": "minecraft:textures/block/mud_bricks.png",
+    "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false

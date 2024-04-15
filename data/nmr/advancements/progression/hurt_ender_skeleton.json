@@ -4,7 +4,7 @@
       "id": "minecraft:ender_pearl"
     },
     "title": "Where did it go!?",
-    "description": "Hurt an enderman skeleton",
+    "description": "Hurt an Enderman Skeleton",
     "background": "minecraft:textures/block/mud_bricks.png",
     "show_toast": true,
     "announce_to_chat": true,

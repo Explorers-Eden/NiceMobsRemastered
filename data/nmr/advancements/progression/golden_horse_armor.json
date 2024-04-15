@@ -1,0 +1,38 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:golden_horse_armor"
+      },
+      "title": "Appreciated by Piglins",
+      "description": "Obtain a golden horse armor",
+      "background": "minecraft:textures/block/mud_bricks.png",
+      "show_toast": true,
+      "announce_to_chat": false
+    },
+    "parent": "nmr:progression/iron_horse_armor",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {}
+            }
+          ],
+          "items": [
+            {
+              "items": "minecraft:golden_horse_armor"
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "recipes": [
+        "nmr:golden_horse_armor"
+      ]
+    }
+  }
+  

@@ -1,0 +1,38 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:diamond_horse_armor"
+      },
+      "title": "Bling! Bling! Horsey!",
+      "description": "Obtain a diamond horse armor",
+      "background": "minecraft:textures/block/mud_bricks.png",
+      "show_toast": true,
+      "announce_to_chat": false
+    },
+    "parent": "nmr:progression/golden_horse_armor",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {}
+            }
+          ],
+          "items": [
+            {
+              "items": "minecraft:diamond_horse_armor"
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "recipes": [
+        "nmr:diamond_horse_armor"
+      ]
+    }
+  }
+  

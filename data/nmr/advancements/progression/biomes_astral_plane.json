@@ -1,0 +1,59 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:filled_map"
+      },
+      "title": "Keep on roaming",
+      "description": "Discover every Astral Plane biome",
+      "background": "minecraft:textures/block/mud_bricks.png",
+      "show_toast": true,
+      "announce_to_chat": true
+    },
+    "parent": "nmr:progression/enter_astral_plane",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "biomes": "nmr:astral_jungle"
+                }
+              }
+            },
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "biomes": "nmr:astral_desert"
+                }
+              }
+            },
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "biomes": "nmr:astral_forest"
+                }
+              }
+            },
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "biomes": "nmr:astral_plains"
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+  

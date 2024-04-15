@@ -4,7 +4,7 @@
       "id": "minecraft:emerald"
     },
     "title": "Undercover agent",
-    "description": "Expose an illusioner",
+    "description": "Expose an Illusioner",
     "background": "minecraft:textures/block/mud_bricks.png",
     "show_toast": true,
     "announce_to_chat": true
