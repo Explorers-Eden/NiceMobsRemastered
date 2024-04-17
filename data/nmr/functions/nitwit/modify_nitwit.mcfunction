@@ -13,4 +13,5 @@ data modify entity @s ArmorItems[3] set value {id:"minecraft:black_banner",count
 data modify entity @s HandItems[0] set value {id:"minecraft:spawner",count:1}
 data modify entity @s Invulnerable set value 1b
 attribute @s minecraft:generic.scale base set 1
+attribute @s minecraft:generic.movement_speed base set .3
 tag @s add nmr_nitwit_set
