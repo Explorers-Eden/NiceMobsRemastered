@@ -15,6 +15,9 @@ execute store result score @s nmr.health.increased run scoreboard players operat
 execute store result score @s nmr.health.modified run scoreboard players operation @s nmr.health.increased *= $multiplier nmr.technical
 execute store result score @s nmr.health.base run scoreboard players operation @s nmr.health.modified /= $100 nmr.technical
 execute store result storage nmr:biome_levels modified_health int 1 run scoreboard players get @s nmr.health.base
+scoreboard players reset @s nmr.health.base
+scoreboard players reset @s nmr.health.modified
+scoreboard players reset @s nmr.health.increased
 
 execute store result score @s nmr.damage.base run attribute @s generic.attack_damage get
 execute store result score @s nmr.damage.modified run scoreboard players operation @s nmr.damage.base *= $90 nmr.technical
@@ -22,5 +25,8 @@ execute store result score @s nmr.damage.reduced run scoreboard players operatio
 execute store result score @s nmr.damage.base run scoreboard players operation @s nmr.damage.reduced *= $multiplier nmr.technical
 execute store result score @s nmr.damage.modified run scoreboard players operation @s nmr.damage.base /= $100 nmr.technical
 execute store result storage nmr:biome_levels modified_damage int 1 run scoreboard players get @s nmr.damage.modified
+scoreboard players reset @s nmr.damage.base
+scoreboard players reset @s nmr.damage.modified
+scoreboard players reset @s nmr.damage.reduced
 
 function nmr:biome_levels/set_level with storage nmr:biome_levels

@@ -1,3 +1,14 @@
+scoreboard objectives remove nmr.health.base
+scoreboard objectives remove nmr.health.modified
+scoreboard objectives remove nmr.health.increased
+scoreboard objectives remove nmr.health.current
+scoreboard objectives remove nmr.health.percent
+scoreboard objectives remove nmr.health.temp
+scoreboard objectives remove nmr.health.max
+scoreboard objectives remove nmr.damage.base
+scoreboard objectives remove nmr.damage.modified
+scoreboard objectives remove nmr.damage.reduced
+
 scoreboard objectives remove nmr.nitwit.zombie
 scoreboard objectives remove nmr.nitwit.drowned
 scoreboard objectives remove nmr.nitwit.husk
@@ -40,6 +51,18 @@ scoreboard objectives remove nmr.nitwit.armadillo
 scoreboard objectives remove nmr.nitwit.snow_golem
 scoreboard objectives remove nmr.nitwit.salmon
 scoreboard objectives remove nmr.nitwit.pufferfish
+
+
+scoreboard objectives add nmr.health.base dummy
+scoreboard objectives add nmr.health.modified dummy
+scoreboard objectives add nmr.health.increased dummy
+scoreboard objectives add nmr.health.current dummy
+scoreboard objectives add nmr.health.percent dummy
+scoreboard objectives add nmr.health.temp dummy
+scoreboard objectives add nmr.health.max dummy
+scoreboard objectives add nmr.damage.base dummy
+scoreboard objectives add nmr.damage.modified dummy
+scoreboard objectives add nmr.damage.reduced dummy
 
 scoreboard objectives add nmr.nitwit.zombie dummy
 scoreboard objectives add nmr.nitwit.drowned dummy

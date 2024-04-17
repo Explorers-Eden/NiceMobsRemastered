@@ -1,6 +1,7 @@
 execute store result score @s nmr.health.current run data get entity @s Health
+execute store result score @s nmr.health.max run attribute @s generic.max_health get
 execute store result score @s nmr.health.temp run scoreboard players operation @s nmr.health.current *= $100 nmr.technical
-execute store result score @s nmr.health.percent run scoreboard players operation @s nmr.health.temp /= @s nmr.health.base
+execute store result score @s nmr.health.percent run scoreboard players operation @s nmr.health.temp /= @s nmr.health.max
 
 $execute if score @s nmr.health.percent matches 95..100 run data modify entity @e[type=text_display,limit=1,tag=nmr_health_display,tag=$(uuid_0)$(uuid_1)$(uuid_2)$(uuid_3)] text set value '[{"text":"❤ |","color":"#F04343","bold":false,"italic":false},{"text":"||||||||||||||||||||","color":"#3BB93B","bold":false,"italic":false},{"text":"| ","color":"#F04343","bold":false,"italic":false}]'
 $execute if score @s nmr.health.percent matches 90..94 run data modify entity @e[type=text_display,limit=1,tag=nmr_health_display,tag=$(uuid_0)$(uuid_1)$(uuid_2)$(uuid_3)] text set value '[{"text":"❤ |","color":"#F04343","bold":false,"italic":false},{"text":"|||||||||||||||||||","color":"#3BB93B","bold":false,"italic":false},{"text":"|","color":"#8D8D8D","bold":false,"italic":false},{"text":"| ","color":"#F04343","bold":false,"italic":false}]'
@@ -22,3 +23,8 @@ $execute if score @s nmr.health.percent matches 15..19 run data modify entity @e
 $execute if score @s nmr.health.percent matches 10..14 run data modify entity @e[type=text_display,limit=1,tag=nmr_health_display,tag=$(uuid_0)$(uuid_1)$(uuid_2)$(uuid_3)] text set value '[{"text":"❤ |","color":"#F04343","bold":false,"italic":false},{"text":"|||","color":"#3BB93B","bold":false,"italic":false},{"text":"|||||||||||||||||","color":"#8D8D8D","bold":false,"italic":false},{"text":"| ","color":"#F04343","bold":false,"italic":false}]'
 $execute if score @s nmr.health.percent matches 5..9 run data modify entity @e[type=text_display,limit=1,tag=nmr_health_display,tag=$(uuid_0)$(uuid_1)$(uuid_2)$(uuid_3)] text set value '[{"text":"❤ |","color":"#F04343","bold":false,"italic":false},{"text":"||","color":"#3BB93B","bold":false,"italic":false},{"text":"||||||||||||||||||","color":"#8D8D8D","bold":false,"italic":false},{"text":"| ","color":"#F04343","bold":false,"italic":false}]'
 $execute if score @s nmr.health.percent matches 0..4 run data modify entity @e[type=text_display,limit=1,tag=nmr_health_display,tag=$(uuid_0)$(uuid_1)$(uuid_2)$(uuid_3)] text set value '[{"text":"❤ |","color":"#F04343","bold":false,"italic":false},{"text":"|","color":"#3BB93B","bold":false,"italic":false},{"text":"|||||||||||||||||||","color":"#8D8D8D","bold":false,"italic":false},{"text":"| ","color":"#F04343","bold":false,"italic":false}]'
+
+scoreboard players reset @s nmr.health.current
+scoreboard players reset @s nmr.health.percent
+scoreboard players reset @s nmr.health.temp
+scoreboard players reset @s nmr.health.max
