@@ -1,0 +1,64 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:chainmail_helmet",
+            "functions": [
+              {
+                "function": "minecraft:set_name",
+                "entity": "this",
+                "target": "item_name",
+                "name": "Helmet of Shrinkage"
+              },
+              {
+                "function": "minecraft:enchant_with_levels",
+                "levels": {
+                  "min": {
+                    "type": "minecraft:constant",
+                    "value": 10
+                  },
+                  "max": {
+                    "type": "minecraft:constant",
+                    "value": 50
+                  }
+                },
+                "treasure": true
+              },
+              {
+                "function": "minecraft:set_lore",
+                "entity": "this",
+                "lore": [
+                  {
+                    "text": "  "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "Shrinks the wearer to half the",
+                    "color": "green",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "size when the full set is worn.",
+                    "color": "green",
+                    "bold": false,
+                    "italic": false
+                  }
+                ],
+                "mode": "insert"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

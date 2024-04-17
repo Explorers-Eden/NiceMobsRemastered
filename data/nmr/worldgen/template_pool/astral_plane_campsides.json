@@ -19,6 +19,24 @@
                 "location": "nmr:astral_plane/campside_2",
                 "processors": "minecraft:empty"
             }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element",
+                "location": "nmr:astral_plane/campside_3",
+                "processors": "minecraft:empty"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element",
+                "location": "nmr:astral_plane/campside_4",
+                "processors": "minecraft:empty"
+            }
         }
     ]
 }
