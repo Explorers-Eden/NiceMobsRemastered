@@ -1,0 +1,13 @@
+{
+    "name": "nmr:shroom_infest/start",
+    "fallback": "minecraft:empty",
+    "elements": [{
+        "weight": 1,
+        "element": {
+            "location": "nmr:shroom_infest/shroom_infest_baseplate",
+            "processors": "minecraft:empty",
+            "projection": "terrain_matching",
+            "element_type": "minecraft:single_pool_element"
+        }
+    }]
+}

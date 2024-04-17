@@ -1,0 +1,13 @@
+{
+    "placement": {
+        "type": "minecraft:random_spread",
+        "spacing": 20,
+        "separation": 3,
+        "salt": 21000210,
+        "spread_type": "triangular"
+    },
+    "structures": [{
+        "structure": "nmr:blackstone_ruins",
+        "weight": 1
+    }]
+}

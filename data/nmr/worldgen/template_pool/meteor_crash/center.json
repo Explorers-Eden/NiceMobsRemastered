@@ -1,0 +1,13 @@
+{
+    "name": "nmr:meteor_crash/center",
+    "fallback": "minecraft:empty",
+    "elements": [{
+        "weight": 1,
+        "element": {
+            "location": "nmr:meteor_crash/meteor_crash_center",
+            "processors": "minecraft:empty",
+            "projection": "rigid",
+            "element_type": "minecraft:single_pool_element"
+        }
+    }]
+}

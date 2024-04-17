@@ -1,0 +1,13 @@
+{
+    "placement": {
+        "type": "minecraft:random_spread",
+        "spacing": 20,
+        "separation": 10,
+        "salt": 21212100,
+        "spread_type": "triangular"
+    },
+    "structures": [{
+        "structure": "nmr:graveyard",
+        "weight": 1
+    }]
+}

@@ -1,0 +1,13 @@
+{
+    "placement": {
+        "type": "minecraft:random_spread",
+        "spacing": 30,
+        "separation": 6,
+        "salt": 21021000,
+        "spread_type": "triangular"
+    },
+    "structures": [{
+        "structure": "nmr:basalt_wall",
+        "weight": 1
+    }]
+}
