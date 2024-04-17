@@ -5,4 +5,5 @@ schedule function nmr:schedules/schedule_30t 30t
 schedule function nmr:schedules/schedule_2s 2s
 schedule function nmr:schedules/schedule_3s 3s
 schedule function nmr:schedules/schedule_10s 10s
+schedule function nmr:schedules/schedule_100s 100s
 schedule function nmr:schedules/schedule_1d 1d
