@@ -56,6 +56,16 @@
               "nbt": "{Tags:[\"nmr_marker_set\"]}"
             }
           }
+        },
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "vehicle": {
+              "type": "vex",
+              "nbt": "{Tags:[\"nmr_amemasu\"]}"
+            }
+          }
         }
       ]
     }

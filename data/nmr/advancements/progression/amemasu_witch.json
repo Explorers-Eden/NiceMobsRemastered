@@ -1,0 +1,21 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:potion"
+      },
+      "title": "It's a trap!",
+      "description": "Hunt down an ocean witch",
+      "background": "minecraft:textures/block/mud_bricks.png",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "nmr:progression/root",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible",
+        "conditions": {}
+      }
+    }
+  }
+  

@@ -1,0 +1,1 @@
+execute as @e[type=marker,tag=nmr_amemasu_spawner_1,limit=1] at @s run function nmr:amemasu/spawn_witch
