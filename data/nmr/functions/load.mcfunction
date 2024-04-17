@@ -1,10 +1,20 @@
 ##add trigger scoreboards
 scoreboard objectives add region_info trigger
+scoreboard objectives add region_info_msg_on dummy
+scoreboard objectives add region_info_msg_off dummy
 scoreboard objectives modify region_info displayname "Region Info Display Toggle"
 scoreboard objectives add horse_stats trigger
+scoreboard objectives add horse_stats_msg_on dummy
+scoreboard objectives add horse_stats_msg_off dummy
 scoreboard objectives modify horse_stats displayname "Horse Stats Display Toggle"
 scoreboard objectives add villager_dismount trigger
+scoreboard objectives add villager_dismount_msg_on dummy
+scoreboard objectives add villager_dismount_msg_off dummy
 scoreboard objectives modify villager_dismount displayname "Right Click Villager Dismount Toggle"
+scoreboard objectives add pet_healing trigger
+scoreboard objectives add pet_healing_msg_on dummy
+scoreboard objectives add pet_healing_msg_off dummy
+scoreboard objectives modify pet_healing displayname "Pet Healing Toggle"
 
 ##add scoreboards
 scoreboard objectives add nmr.astralplane.portal.pos.set dummy
@@ -91,3 +101,6 @@ team add nmr_special_mobs
 team modify nmr_hostile_mobs color dark_red
 team modify nmr_non_hostile_mobs color dark_green
 team modify nmr_special_mobs color gold
+
+##modify gamerules
+gamerule sendCommandFeedback false
