@@ -1,0 +1,33 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "equipment": {
+        "head": {
+          "items": "minecraft:chainmail_helmet",
+          "components": {
+            "minecraft:item_name": "{\"text\":\"Helmet of Growth\"}"
+          }
+        },
+        "chest": {
+          "items": "minecraft:chainmail_chestplate",
+          "components": {
+            "minecraft:item_name": "{\"text\":\"Chestplate of Growth\"}"
+          }
+        },
+        "legs": {
+          "items": "minecraft:chainmail_leggings",
+          "components": {
+            "minecraft:item_name": "{\"text\":\"Leggings of Growth\"}"
+          }
+        },
+        "feet": {
+          "items": "minecraft:chainmail_boots",
+          "components": {
+            "minecraft:item_name": "{\"text\":\"Boots of Growth\"}"
+          }
+        }
+      }
+    }
+  }
+  
