@@ -1,6 +1,6 @@
 {
     "type": "minecraft:jigsaw",
-    "biomes": "#nmr:has_structure/astral_plane_exit_portal",
+    "biomes": "#nmr:has_structure/astral_no_desert",
     "step": "surface_structures",
     "spawn_overrides": {},
     "terrain_adaptation": "beard_thin",

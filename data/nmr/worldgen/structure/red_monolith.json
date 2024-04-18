@@ -1,5 +1,5 @@
 {
-    "biomes": "#nmr:has_structure/astral_desert",
+    "biomes": "nmr:/astral_desert",
     "adapt_noise": false,
     "spawn_overrides": {},
     "type": "minecraft:jigsaw",
