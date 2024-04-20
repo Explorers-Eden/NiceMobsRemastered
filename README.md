@@ -1,5 +1,5 @@
 <img src="https://explorerseden.eu/nicemobsreamstered_title.png" alt="header" width=100%>
-<br><br>
+<br>
 
 ## 📖 Description
 **Nice Mobs Remastered** reworks, remasters and adds new mobs and mob related mechanics to the game to make each survival experience more thrilling and exciting. From nearly unlimited combinations for hostile mob equipment over the addition of new mobs to a completly new late game dimension, this datapack offers a vast amount of features to sprucce up every Minecraft server and single player world.
