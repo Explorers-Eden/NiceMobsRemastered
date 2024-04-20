@@ -1,0 +1,24 @@
+{
+    "name": "nmr:astral_plane_towers",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element",
+                "location": "nmr:astral_plane/tower_1",
+                "processors": "minecraft:empty"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element",
+                "location": "nmr:astral_plane/tower_2",
+                "processors": "minecraft:empty"
+            }
+        }
+    ]
+}

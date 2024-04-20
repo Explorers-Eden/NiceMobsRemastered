@@ -1,14 +1,14 @@
 {
     "structures": [
       {
-        "structure": "nmr:astral_plane_exit_portals",
+        "structure": "nmr:astral_plane_towers",
         "weight": 1
       }
     ],
     "placement": {
       "type": "minecraft:random_spread",
-      "salt": 34222645,
-      "spacing": 10,
-      "separation": 5
+      "salt": 1646201450,
+      "spacing": 50,
+      "separation": 25
     }
   }
