@@ -19,7 +19,7 @@
 - 10 new mobs: Boo, Ender Skeleton, Hedgehog, Hermit Crab, Ladybug, Nautilus, Penguin, Rat, Redstone Ghost, Snail
 - Piglinauts found their way to the end
 - Pillagernauts also found their way to the end
-- Firefly particles in swamp bionmes
+- Firefly particles in swamp biomes
 - Randomized mob equipment
 - Some mobs with visible heads have a chance to become a hermit
 - Randomized sizes for mobs
@@ -53,6 +53,7 @@
 - Glow-/Squids have a chance to blind the player when they get hit
 - Villagers can be dismounted by right clicking them
 - Villagers can be picked up by riding a Camel over them
+- Iron Golems get angry when you open a village chest near them
 - The Wandering Trader now sells Mob Heads (Yes, they do make noteblock sounds)
 - Elder Guardians have bossbars
 <br><br>
