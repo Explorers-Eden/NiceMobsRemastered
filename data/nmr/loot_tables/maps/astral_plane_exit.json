@@ -1,0 +1,29 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:map",
+            "functions": [
+              {
+                "function": "minecraft:exploration_map",
+                "destination": "nmr:astral_plane_exit",
+                "decoration": "red_x",
+                "zoom": 1,
+                "skip_existing_chunks": false
+              },
+              {
+                "function": "minecraft:set_name",
+                "entity": "this",
+                "target": "item_name",
+                "name": "Astral Plane Exit Map"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

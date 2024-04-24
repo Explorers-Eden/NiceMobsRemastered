@@ -374,6 +374,15 @@
             "weight": 4
           }
         ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "value": "nmr:maps/astral_plane_exit"
+          }
+        ]
       }
     ]
   }
