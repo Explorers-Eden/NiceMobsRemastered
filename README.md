@@ -2,7 +2,7 @@
 <br>
 
 ## 📖 Description
-**Nice Mobs Remastered** reworks, remasters and adds new mobs and mob related mechanics to the game to make each survival experience more thrilling and exciting. From nearly unlimited combinations for hostile mob equipment over the addition of new mobs to a completly new late game dimension, this datapack offers a vast amount of features to sprucce up every Minecraft server and single player world.
+**Nice Mobs Remastered** reworks, remasters and adds new mobs and mob related mechanics to the game to make each survival experience more thrilling and exciting. From nearly unlimited combinations for hostile mob equipment over the addition of new mobs to a completly new late game dimension, this datapack offers a vast amount of features to spruce up every Minecraft server and single player world.
 
 **With version 2.0 this datapack was completly being rewritten and is now better optimized, more stable and has more features than ever before.**
 <br><br>
@@ -19,7 +19,7 @@
 - 10 new mobs: Boo, Ender Skeleton, Hedgehog, Hermit Crab, Ladybug, Nautilus, Penguin, Rat, Redstone Ghost, Snail
 - Piglinauts found their way to the end
 - Pillagernauts also found their way to the end
-- Firefly particles in swamp bionmes
+- Firefly particles in swamp biomes
 - Randomized mob equipment
 - Some mobs with visible heads have a chance to become a hermit
 - Randomized sizes for mobs
@@ -53,13 +53,14 @@
 - Glow-/Squids have a chance to blind the player when they get hit
 - Villagers can be dismounted by right clicking them
 - Villagers can be picked up by riding a Camel over them
+- Iron Golems get angry when you open a village chest near them
 - The Wandering Trader now sells Mob Heads (Yes, they do make noteblock sounds)
 - Elder Guardians have bossbars
 <br><br>
 ## 🛠️ How to, Instructions & Commands
 The datapack usually just needs to be installed. There is nothing else you have to do. It just works out of the box.
 
-But if you are playing on a PaperMC Server (or a PaperMC Fork lile Purpur) make sure to set **allow-non-player-entities-on-scoreboards** in your paper config files to **true** in order for everything to work properly.
+But if you are playing on a PaperMC Server (or a PaperMC Fork like Purpur) make sure to set **allow-non-player-entities-on-scoreboards** in your paper config files to **true** in order for everything to work properly.
 
 Some functionalities can be toggled on a per player basis. Meaning anyone playing can decide for themselves if they want to have the feature enabled or not. The folowing features can be toggled:
 
