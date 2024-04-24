@@ -60,7 +60,7 @@
 ## 🛠️ How to, Instructions & Commands
 The datapack usually just needs to be installed. There is nothing else you have to do. It just works out of the box.
 
-But if you are playing on a PaperMC Server (or a PaperMC Fork lile Purpur) make sure to set **allow-non-player-entities-on-scoreboards** in your paper config files to **true** in order for everything to work properly.
+But if you are playing on a PaperMC Server (or a PaperMC Fork like Purpur) make sure to set **allow-non-player-entities-on-scoreboards** in your paper config files to **true** in order for everything to work properly.
 
 Some functionalities can be toggled on a per player basis. Meaning anyone playing can decide for themselves if they want to have the feature enabled or not. The folowing features can be toggled:
 
