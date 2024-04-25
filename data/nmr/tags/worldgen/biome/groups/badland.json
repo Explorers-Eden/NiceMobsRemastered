@@ -5,7 +5,6 @@
         { "id": "minecraft:wooded_badlands","required": false},
         { "id": "terralith:snowy_badlands","required": false},
         { "id": "terralith:bryce_canyon","required": false},
-        { "id": "terralith:painted_mountains","required": false},
         { "id": "terralith:warped_mesa","required": false}
     ]
 }
