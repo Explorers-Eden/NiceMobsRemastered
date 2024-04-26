@@ -12,7 +12,7 @@
 - 2 new armor sets with new effects
 - Health displays for hostile mobs
 - Hostile mobs are now having levels based on the biome they spawned in
-- 3 new boss mobs: Amemasu, Celestial Watcher, Golden Guardians
+- 3 new boss mobs: Amemasu, Celestial Watcher, Golden Guardian
 - 27 new advancements
 - Nitwits now offer quests and give out spawn eggs as reward
 - Mobs have a chance to spawn in different rarities with different loot
