@@ -24,7 +24,7 @@
 - Some mobs with visible heads have a chance to become a hermit
 - Randomised sizes for mobs
 - Randomised speed for mobs
-- Creepers have randomized fuse times, explosion radius and a chance for potion effects
+- Creepers have randomised fuse times, explosion radius and a chance for potion effects
 - Some mobs carry their baby on their backs
 - Shulkers can have different colors
 - Piglins & Hoglins have a chance to not become zombified when they enter the overworld
