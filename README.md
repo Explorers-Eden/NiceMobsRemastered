@@ -20,10 +20,10 @@
 - Piglinauts found their way to the end
 - Pillagernauts also found their way to the end
 - Firefly particles in swamp biomes
-- Randomized mob equipment
+- Randomised mob equipment
 - Some mobs with visible heads have a chance to become a hermit
-- Randomized sizes for mobs
-- Randomized speed for mobs
+- Randomised sizes for mobs
+- Randomised speed for mobs
 - Creepers have randomized fuse times, explosion radius and a chance for potion effects
 - Some mobs carry their baby on their backs
 - Shulkers can have different colors
