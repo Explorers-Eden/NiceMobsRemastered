@@ -106,4 +106,4 @@ team modify nmr_non_hostile_mobs color dark_green
 team modify nmr_special_mobs color gold
 
 ##modify gamerules
-gamerule sendCommandFeedback false
+#gamerule sendCommandFeedback false
