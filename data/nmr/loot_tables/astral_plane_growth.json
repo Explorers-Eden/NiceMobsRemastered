@@ -481,6 +481,28 @@
           "value": "nmr:maps/astral_plane_exit"
         }
       ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "nmr:automaticons/any_tier",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.4
+            },
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Tags:[\"automaticons\"]}"
+              }
+            }
+          ]
+        }
+      ]
     }
   ]
 }

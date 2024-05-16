@@ -1,0 +1,29 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "nmr:automaticons/gold/sword"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "nmr:automaticons/gold/shovel"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "nmr:automaticons/gold/pickaxe"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "nmr:automaticons/gold/hoe"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "nmr:automaticons/gold/axe"
+        }
+      ]
+    }
+  ]
+}
