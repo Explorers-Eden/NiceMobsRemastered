@@ -27,6 +27,7 @@ execute as @s[type=#nmr:can_player_head,tag=nmr_tangotek] run data modify storag
 execute as @s[type=#nmr:can_player_head,tag=nmr_rendog] run data modify storage nmr:biome_levels type set value "RenDog"
 execute as @s[type=#nmr:can_player_head,tag=nmr_oakloaf] run data modify storage nmr:biome_levels type set value "OakLoaf"
 execute as @s[type=#nmr:can_player_head,tag=nmr_slicedlime] run data modify storage nmr:biome_levels type set value "SlicedLime"
+execute as @s[type=husk,nbt={CustomName:'{"text":"Pharaoh","color":"gold"}'}] run data modify storage nmr:biome_levels type set value "Pharaoh"
 
 
 execute as @s[type=drowned,predicate=!nmr:entity/has_custom_name] run data modify storage nmr:biome_levels type set value "Drowned"
