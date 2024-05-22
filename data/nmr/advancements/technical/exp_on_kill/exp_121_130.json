@@ -12,13 +12,13 @@
           ],
           "entity": {
             "type": "#nmr:has_health_display",
-            "nbt": "{Tags:[\"exp_100_150\"]}"
+            "nbt": "{Tags:[\"exp_121_130\"]}"
           }
         }
       }
     },
     "rewards": {
-      "function": "nmr:exp_on_kill/exp_100_150"
+      "function": "nmr:exp_on_kill/exp_121_130"
     }
   }
   

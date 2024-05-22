@@ -45,13 +45,13 @@ execute unless dimension nmr:astral_plane if biome ~ ~ ~ minecraft:soul_sand_val
 execute unless dimension nmr:astral_plane if biome ~ ~ ~ #nmr:groups/end store result storage nmr:biome_levels level int 1 run random value 89..99
 execute unless dimension nmr:astral_plane if biome ~ ~ ~ #nmr:groups/end run tag @s add exp_89_99
 
-execute if dimension nmr:astral_plane if biome ~ ~ ~ nmr:astral_plains store result storage nmr:biome_levels level int 1 run random value 100..150
-execute if dimension nmr:astral_plane if biome ~ ~ ~ nmr:astral_plains run tag @s add exp_100_150
-execute if dimension nmr:astral_plane if biome ~ ~ ~ nmr:astral_jungle store result storage nmr:biome_levels level int 1 run random value 151..200
-execute if dimension nmr:astral_plane if biome ~ ~ ~ nmr:astral_jungle run tag @s add exp_151_200
-execute if dimension nmr:astral_plane if biome ~ ~ ~ nmr:astral_forest store result storage nmr:biome_levels level int 1 run random value 151..200
-execute if dimension nmr:astral_plane if biome ~ ~ ~ nmr:astral_forest run tag @s add exp_151_200
-execute if dimension nmr:astral_plane if biome ~ ~ ~ nmr:astral_desert store result storage nmr:biome_levels level int 1 run random value 201..250
-execute if dimension nmr:astral_plane if biome ~ ~ ~ nmr:astral_desert run tag @s add exp_201_250
+execute if dimension nmr:astral_plane if biome ~ ~ ~ nmr:astral_plains store result storage nmr:biome_levels level int 1 run random value 100..110
+execute if dimension nmr:astral_plane if biome ~ ~ ~ nmr:astral_plains run tag @s add exp_100_110
+execute if dimension nmr:astral_plane if biome ~ ~ ~ nmr:astral_jungle store result storage nmr:biome_levels level int 1 run random value 111..120
+execute if dimension nmr:astral_plane if biome ~ ~ ~ nmr:astral_jungle run tag @s add exp_111_120
+execute if dimension nmr:astral_plane if biome ~ ~ ~ nmr:astral_forest store result storage nmr:biome_levels level int 1 run random value 121..130
+execute if dimension nmr:astral_plane if biome ~ ~ ~ nmr:astral_forest run tag @s add exp_121_130
+execute if dimension nmr:astral_plane if biome ~ ~ ~ nmr:astral_desert store result storage nmr:biome_levels level int 1 run random value 131..150
+execute if dimension nmr:astral_plane if biome ~ ~ ~ nmr:astral_desert run tag @s add exp_131_150
 
 function nmr:biome_levels/get_data with storage nmr:biome_levels
