@@ -11,7 +11,7 @@ execute store result storage nmr:biome_levels uuid_1 int 1 run data get entity @
 execute store result storage nmr:biome_levels uuid_2 int 1 run data get entity @s UUID[2]
 execute store result storage nmr:biome_levels uuid_3 int 1 run data get entity @s UUID[3]
 
-execute store result score @s nmr.health.modified run scoreboard players operation @s nmr.health.base *= $150 nmr.technical
+execute store result score @s nmr.health.modified run scoreboard players operation @s nmr.health.base *= $125 nmr.technical
 execute store result score @s nmr.health.increased run scoreboard players operation @s nmr.health.modified /= $100 nmr.technical
 execute store result score @s nmr.health.modified run scoreboard players operation @s nmr.health.increased *= $multiplier nmr.technical
 execute store result score @s nmr.health.base run scoreboard players operation @s nmr.health.modified /= $100 nmr.technical
@@ -21,7 +21,7 @@ scoreboard players reset @s nmr.health.modified
 scoreboard players reset @s nmr.health.increased
 
 execute store result score @s nmr.damage.base run attribute @s generic.attack_damage get
-execute store result score @s nmr.damage.modified run scoreboard players operation @s nmr.damage.base *= $90 nmr.technical
+execute store result score @s nmr.damage.modified run scoreboard players operation @s nmr.damage.base *= $75 nmr.technical
 execute store result score @s nmr.damage.reduced run scoreboard players operation @s nmr.damage.base /= $100 nmr.technical
 execute store result score @s nmr.damage.base run scoreboard players operation @s nmr.damage.reduced *= $multiplier nmr.technical
 execute store result score @s nmr.damage.modified run scoreboard players operation @s nmr.damage.base /= $100 nmr.technical

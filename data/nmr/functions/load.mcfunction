@@ -85,10 +85,10 @@ scoreboard objectives add nmr.nitwit.pufferfish dummy
 
 ##set scoreboards
 scoreboard players set $nmr_golden_guardian_breathing nmr.technical 1
-scoreboard players set $150 nmr.technical 150
+scoreboard players set $125 nmr.technical 125
 scoreboard players set $250 nmr.technical 250
 scoreboard players set $100 nmr.technical 100
-scoreboard players set $90 nmr.technical 90
+scoreboard players set $75 nmr.technical 75
 scoreboard players set $2 nmr.technical 2
 scoreboard players set $health_multiplier nmr.technical 100
 
@@ -106,4 +106,4 @@ team modify nmr_non_hostile_mobs color dark_green
 team modify nmr_special_mobs color gold
 
 ##modify gamerules
-gamerule sendCommandFeedback false
+#gamerule sendCommandFeedback false
