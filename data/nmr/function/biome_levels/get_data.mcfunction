@@ -20,7 +20,7 @@ scoreboard players reset @s nmr.health.base
 scoreboard players reset @s nmr.health.modified
 scoreboard players reset @s nmr.health.increased
 
-execute store result score @s nmr.damage.base run attribute @s generic.attack_damage get
+execute store result score @s nmr.damage.base run attribute @s minecraft:generic.attack_damage get
 execute store result score @s nmr.damage.modified run scoreboard players operation @s nmr.damage.base *= $75 nmr.technical
 execute store result score @s nmr.damage.reduced run scoreboard players operation @s nmr.damage.base /= $100 nmr.technical
 execute store result score @s nmr.damage.base run scoreboard players operation @s nmr.damage.reduced *= $multiplier nmr.technical

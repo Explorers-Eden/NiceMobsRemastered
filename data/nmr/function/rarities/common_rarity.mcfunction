@@ -1,7 +1,7 @@
 $kill @e[type=text_display,tag=nmr_level_display,tag=$(uuid_0)$(uuid_1)$(uuid_2)$(uuid_3)]
 data modify entity @s DeathLootTable set value "nmr:potions"
 
-attribute @s generic.max_health base set 50 
+attribute @s minecraft:generic.max_health base set 50 
 data modify entity @s Health set value 50f
 
 $execute as @s[type=#nmr:has_health_display] at @s unless data entity @s Passengers run summon text_display ~ ~ ~ {billboard:"vertical",shadow:1b,Tags:["nmr_health_display","$(uuid_0)$(uuid_1)$(uuid_2)$(uuid_3)"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0.15f,0f],scale:[.6f,.6f,.6f]},text:'[{"text":"❤ |","color":"#F04343","bold":false,"italic":false},{"text":"||||||||||||||||||||","color":"#3BB93B","bold":false,"italic":false},{"text":"| ","color":"#F04343","bold":false,"italic":false}]',background:16711680}
