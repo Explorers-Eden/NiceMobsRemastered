@@ -1,0 +1,2 @@
+scoreboard players set $difficulty nmr.technical 4
+tellraw @s [{"text":"Difficulty was set to ","color":"#A6FFAF","bold":true,"italic":false},{"text":"Above Average","color":"#FFCE0A","bold":true,"italic":false}]
