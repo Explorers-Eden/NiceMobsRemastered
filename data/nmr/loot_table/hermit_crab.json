@@ -86,6 +86,18 @@
           {
             "type": "minecraft:item",
             "name": "minecraft:snort_pottery_sherd"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:flow_pottery_sherd"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:guster_pottery_sherd"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:scrape_pottery_sherd"
           }
         ]
       }

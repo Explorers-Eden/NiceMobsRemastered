@@ -66,6 +66,14 @@
           {
             "type": "minecraft:item",
             "name": "minecraft:music_disc_ward"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:music_disc_precipice"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:music_disc_creator"
           }
         ]
       }
