@@ -19,6 +19,15 @@
                 "location": "nmr:spawner/snail",
                 "processors": "minecraft:empty"
             }
+        },
+        {
+            "weight": 5,
+            "element": {
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element",
+                "location": "nmr:spawner/rats",
+                "processors": "minecraft:empty"
+            }
         }
     ]
 }

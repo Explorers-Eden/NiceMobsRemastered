@@ -1,0 +1,15 @@
+{
+    "name": "nmr:ocean_spawner",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 10,
+            "element": {
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element",
+                "location": "nmr:spawner/nautilus",
+                "processors": "minecraft:empty"
+            }
+        }
+    ]
+}
