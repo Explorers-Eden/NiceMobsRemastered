@@ -6,11 +6,6 @@ execute if dimension nmr:astral_plane store result score $multiplier nmr.technic
 
 function nmr:biome_levels/get_type
 
-execute store result storage nmr:biome_levels uuid_0 int 1 run data get entity @s UUID[0]
-execute store result storage nmr:biome_levels uuid_1 int 1 run data get entity @s UUID[1]
-execute store result storage nmr:biome_levels uuid_2 int 1 run data get entity @s UUID[2]
-execute store result storage nmr:biome_levels uuid_3 int 1 run data get entity @s UUID[3]
-
 execute if score $difficulty nmr.technical matches 1 store result score @s nmr.health.modified run scoreboard players operation @s nmr.health.base *= $50 nmr.technical
 execute if score $difficulty nmr.technical matches 2 store result score @s nmr.health.modified run scoreboard players operation @s nmr.health.base *= $75 nmr.technical
 execute if score $difficulty nmr.technical matches 3 store result score @s nmr.health.modified run scoreboard players operation @s nmr.health.base *= $100 nmr.technical

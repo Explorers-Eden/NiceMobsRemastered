@@ -2,12 +2,33 @@ $attribute @s minecraft:generic.max_health base set $(modified_health)
 $data modify entity @s Health set value $(modified_health).0f
 $attribute @s minecraft:generic.attack_damage base set $(modified_damage)
 
-$execute as @s[type=#nmr:has_health_display] at @s unless data entity @s Passengers run summon text_display ~ ~ ~ {alignment:"center",billboard:"vertical",shadow:1b,Tags:["nmr_health_display","$(uuid_0)$(uuid_1)$(uuid_2)$(uuid_3)"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0.15f,0f],scale:[.6f,.6f,.6f]},text:'[{"text":"❤ |","color":"#F04343","bold":false,"italic":false},{"text":"||||||||||||||||||||","color":"#3BB93B","bold":false,"italic":false},{"text":"| ","color":"#F04343","bold":false,"italic":false}]',background:16711680}
-$execute as @s[type=#nmr:has_health_display] at @s unless data entity @s Passengers run ride @e[type=text_display,limit=1,tag=$(uuid_0)$(uuid_1)$(uuid_2)$(uuid_3),tag=nmr_health_display] mount @s
+$execute if entity @s[tag=exp_1_4] run data modify entity @s CustomName set value '{"text":"$(type) • Lvl: $(level)","color":"white","italic":false}'
+$execute if entity @s[tag=exp_5_8] run data modify entity @s CustomName set value '{"text":"$(type) • Lvl: $(level)","color":"green","italic":false}'
+$execute if entity @s[tag=exp_9_12] run data modify entity @s CustomName set value '{"text":"$(type) • Lvl: $(level)","color":"green","italic":false}'
+$execute if entity @s[tag=exp_13_16] run data modify entity @s CustomName set value '{"text":"$(type) • Lvl: $(level)","color":"green","italic":false}'
+$execute if entity @s[tag=exp_17_20] run data modify entity @s CustomName set value '{"text":"$(type) • Lvl: $(level)","color":"green","italic":false}'
+$execute if entity @s[tag=exp_21_24] run data modify entity @s CustomName set value '{"text":"$(type) • Lvl: $(level)","color":"green","italic":false}'
+$execute if entity @s[tag=exp_25_28] run data modify entity @s CustomName set value '{"text":"$(type) • Lvl: $(level)","color":"dark_green","italic":false}'
+$execute if entity @s[tag=exp_29_32] run data modify entity @s CustomName set value '{"text":"$(type) • Lvl: $(level)","color":"dark_green","italic":false}'
+$execute if entity @s[tag=exp_33_36] run data modify entity @s CustomName set value '{"text":"$(type) • Lvl: $(level)","color":"dark_green","italic":false}'
+$execute if entity @s[tag=exp_37_40] run data modify entity @s CustomName set value '{"text":"$(type) • Lvl: $(level)","color":"dark_green","italic":false}'
+$execute if entity @s[tag=exp_41_44] run data modify entity @s CustomName set value '{"text":"$(type) • Lvl: $(level)","color":"dark_green","italic":false}'
+$execute if entity @s[tag=exp_45_48] run data modify entity @s CustomName set value '{"text":"$(type) • Lvl: $(level)","color":"yellow","italic":false}'
+$execute if entity @s[tag=exp_49_52] run data modify entity @s CustomName set value '{"text":"$(type) • Lvl: $(level)","color":"yellow","italic":false}'
+$execute if entity @s[tag=exp_53_56] run data modify entity @s CustomName set value '{"text":"$(type) • Lvl: $(level)","color":"yellow","italic":false}'
+$execute if entity @s[tag=exp_57_60] run data modify entity @s CustomName set value '{"text":"$(type) • Lvl: $(level)","color":"yellow","italic":false}'
+$execute if entity @s[tag=exp_61_64] run data modify entity @s CustomName set value '{"text":"$(type) • Lvl: $(level)","color":"yellow","italic":false}'
+$execute if entity @s[tag=exp_65_68] run data modify entity @s CustomName set value '{"text":"$(type) • Lvl: $(level)","color":"gold","italic":false}'
+$execute if entity @s[tag=exp_69_72] run data modify entity @s CustomName set value '{"text":"$(type) • Lvl: $(level)","color":"gold","italic":false}'
+$execute if entity @s[tag=exp_73_76] run data modify entity @s CustomName set value '{"text":"$(type) • Lvl: $(level)","color":"gold","italic":false}'
+$execute if entity @s[tag=exp_77_80] run data modify entity @s CustomName set value '{"text":"$(type) • Lvl: $(level)","color":"gold","italic":false}'
+$execute if entity @s[tag=exp_81_84] run data modify entity @s CustomName set value '{"text":"$(type) • Lvl: $(level)","color":"red","italic":false}'
+$execute if entity @s[tag=exp_85_88] run data modify entity @s CustomName set value '{"text":"$(type) • Lvl: $(level)","color":"red","italic":false}'
+$execute if entity @s[tag=exp_89_99] run data modify entity @s CustomName set value '{"text":"$(type) • Lvl: $(level)","color":"dark_red","italic":false}'
+$execute if entity @s[tag=exp_100_110] run data modify entity @s CustomName set value '{"text":"$(type) • Lvl: $(level)","color":"dark_purple","italic":false}'
+$execute if entity @s[tag=exp_111_120] run data modify entity @s CustomName set value '{"text":"$(type) • Lvl: $(level)","color":"dark_purple","italic":false}'
+$execute if entity @s[tag=exp_121_130] run data modify entity @s CustomName set value '{"text":"$(type) • Lvl: $(level)","color":"dark_purple","italic":false}'
+$execute if entity @s[tag=exp_131_150] run data modify entity @s CustomName set value '{"text":"$(type) • Lvl: $(level)","color":"dark_purple","italic":false}'
+
 tag @s add nmr_has_display
-
-$summon text_display ~ ~ ~ {alignment:"center",billboard:"vertical",shadow:1b,Tags:["nmr_level_display","$(uuid_0)$(uuid_1)$(uuid_2)$(uuid_3)"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0.3f,0f],scale:[.5f,.5f,.5f]},text:'{"text":"$(type) • Lvl: $(level)","color":"#E8E8E8","bold":false,"italic":false}',background:16711680}
-$execute as @s[tag=!nmr_has_display] at @s unless data entity @s Passengers run ride @e[type=text_display,limit=1,tag=$(uuid_0)$(uuid_1)$(uuid_2)$(uuid_3),tag=nmr_level_display] mount @s
-$execute as @s[tag=nmr_has_display] at @s if data entity @s Passengers run ride @e[type=text_display,limit=1,tag=$(uuid_0)$(uuid_1)$(uuid_2)$(uuid_3),tag=nmr_level_display] mount @e[type=text_display,limit=1,tag=$(uuid_0)$(uuid_1)$(uuid_2)$(uuid_3),tag=nmr_health_display]
-
 tag @s add nmr_level_set

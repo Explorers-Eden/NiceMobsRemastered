@@ -15,6 +15,10 @@ scoreboard objectives add pet_healing trigger
 scoreboard objectives add pet_healing_msg_on dummy
 scoreboard objectives add pet_healing_msg_off dummy
 scoreboard objectives modify pet_healing displayname "Pet Healing Toggle"
+scoreboard objectives add healthbar trigger
+scoreboard objectives add healthbar_msg_on dummy
+scoreboard objectives add healthbar_msg_off dummy
+scoreboard objectives modify healthbar displayname "Healthbar Toggle"
 
 ##add scoreboards
 scoreboard objectives add nmr.astralplane.portal.pos.set dummy
@@ -82,6 +86,8 @@ scoreboard objectives add nmr.nitwit.armadillo dummy
 scoreboard objectives add nmr.nitwit.snow_golem dummy
 scoreboard objectives add nmr.nitwit.salmon dummy
 scoreboard objectives add nmr.nitwit.pufferfish dummy
+scoreboard objectives add nmr.find_look.temp dummy
+scoreboard objectives add nmr.find_look.const dummy
 
 ##set scoreboards
 scoreboard players set $nmr_golden_guardian_breathing nmr.technical 1
@@ -95,6 +101,7 @@ scoreboard players set $75 nmr.technical 75
 scoreboard players set $50 nmr.technical 50
 scoreboard players set $2 nmr.technical 2
 scoreboard players set $health_multiplier nmr.technical 100
+scoreboard players set 2 nmr.find_look.const 2
 
 ##schedule functions
 schedule function nmr:schedules/on_load_schedule 1t
@@ -103,8 +110,10 @@ schedule function nmr:schedules/on_load_schedule 1t
 team add nmr_hostile_mobs
 team add nmr_non_hostile_mobs
 team add nmr_special_mobs
+team add nmr.looked_at "Looked At"
 
 ##configure teams
 team modify nmr_hostile_mobs color dark_red
 team modify nmr_non_hostile_mobs color dark_green
 team modify nmr_special_mobs color gold
+team modify nmr.looked_at nametagVisibility never
