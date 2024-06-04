@@ -1,1 +1,1 @@
-execute as @e[type=player,predicate=nmr:world/in_astral_plane] run effect clear @s night_vision
+execute as @a[predicate=nmr:world/in_astral_plane] run effect clear @s night_vision

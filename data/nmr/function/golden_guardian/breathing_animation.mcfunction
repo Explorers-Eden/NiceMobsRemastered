@@ -24,4 +24,4 @@ execute if score $nmr_golden_guardian_breathing nmr.technical matches 20 as @e[t
 execute if score $nmr_golden_guardian_breathing nmr.technical matches ..20 run scoreboard players add $nmr_golden_guardian_breathing nmr.technical 1
 execute if score $nmr_golden_guardian_breathing nmr.technical matches 20.. run scoreboard players set $nmr_golden_guardian_breathing nmr.technical 1
 
-execute as @e[type=piglin,tag=nmr_golden_guardian_rider] if predicate nmr:percentages/5percent at @s if entity @e[type=player,distance=..48] run function nmr:golden_guardian/levitation_fireball
+execute as @e[type=piglin,tag=nmr_golden_guardian_rider] if predicate nmr:percentages/5percent at @s if entity @a[distance=..48] run function nmr:golden_guardian/levitation_fireball
