@@ -1,2 +1,2 @@
-scoreboard players enable @e[type=player] horse_stats
+scoreboard players enable @a horse_stats
 execute as @a[predicate=!nmr:entity/is_riding_horse,predicate=nmr:entity/looking_at_tamed_horse] at @s unless score @s horse_stats matches 1 run function nmr:horse_info/get_data
