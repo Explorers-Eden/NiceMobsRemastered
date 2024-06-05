@@ -5,23 +5,23 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "nmr:automaticons/diamond/sword"
+          "value": "automaticons:diamond/sword"
         },
         {
           "type": "minecraft:loot_table",
-          "value": "nmr:automaticons/diamond/shovel"
+          "value": "automaticons:diamond/shovel"
         },
         {
           "type": "minecraft:loot_table",
-          "value": "nmr:automaticons/diamond/pickaxe"
+          "value": "automaticons:diamond/pickaxe"
         },
         {
           "type": "minecraft:loot_table",
-          "value": "nmr:automaticons/diamond/hoe"
+          "value": "automaticons:diamond/hoe"
         },
         {
           "type": "minecraft:loot_table",
-          "value": "nmr:automaticons/diamond/axe"
+          "value": "automaticons:diamond/axe"
         }
       ]
     }
