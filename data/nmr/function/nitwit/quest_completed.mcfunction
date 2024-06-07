@@ -41,7 +41,7 @@ execute if score @s nmr.nitwit.entity matches 40 run summon item ~ ~ ~ {Item:{id
 execute if score @s nmr.nitwit.entity matches 41 run summon item ~ ~ ~ {Item:{id:"minecraft:salmon_spawn_egg",count:1}}
 execute if score @s nmr.nitwit.entity matches 42 run summon item ~ ~ ~ {Item:{id:"minecraft:pufferfish_spawn_egg",count:1}}
 
-summon item ~ ~ ~ {Item:{id:"minecraft:knowledge_book",count:1,components:{"minecraft:custom_name":'{"text":"Crafting Recipe Book","color":"gold","bold":false,"italic":false}',"minecraft:lore":['{"text":"Unlocks a recipe","color":"blue","bold":false,"italic":false}','{"text":"Spawner","color":"gray","bold":false,"italic":false}'],"minecraft:recipes":["nmr:spawner"]}}}
+summon item ~ ~ ~ {Item:{id:"minecraft:knowledge_book",count:1,components:{"minecraft:item_name":'[{"bold":false,"color":"#FFE59D","italic":false,"text":"Recipe Book: "},{"bold":false,"color":"white","italic":false,"text":"Spawner"}]',"minecraft:lore":['{"text":"• Unlocks a crafting recipe","color":"gray","bold":false,"italic":false}'],"minecraft:recipes":["nmr:spawner"]}}}
 
 playsound minecraft:ui.toast.challenge_complete player @a ~ ~ ~ .7 2
 particle poof ~ ~-1 ~ .5 .75 .5 0.01 150
