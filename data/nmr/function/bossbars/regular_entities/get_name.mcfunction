@@ -1,1 +1,2 @@
-data modify storage nmr:bossbars entity_name set from entity @s CustomName
+execute if score $level nmr.technical matches 1 run data modify storage nmr:bossbars entity_name set from entity @s CustomName
+execute if score $level nmr.technical matches 0 run data modify storage nmr:bossbars entity_name set value '{"bold":false,"color":"white","italic":false,"text":"Hostile Entity"}'
