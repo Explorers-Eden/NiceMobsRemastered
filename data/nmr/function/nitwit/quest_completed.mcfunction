@@ -25,23 +25,25 @@ execute if score @s nmr.nitwit.entity matches 24 run summon item ~ ~ ~ {Item:{id
 execute if score @s nmr.nitwit.entity matches 25 run summon item ~ ~ ~ {Item:{id:"minecraft:vindicator_spawn_egg",count:1}}
 execute if score @s nmr.nitwit.entity matches 26 run summon item ~ ~ ~ {Item:{id:"minecraft:witch_spawn_egg",count:1}}
 execute if score @s nmr.nitwit.entity matches 27 run summon item ~ ~ ~ {Item:{id:"minecraft:iron_golem_spawn_egg",count:1}}
-execute if score @s nmr.nitwit.entity matches 28 run summon item ~ ~ ~ {Item:{id:"minecraft:chicken_spawn_egg",count:1}}
-execute if score @s nmr.nitwit.entity matches 29 run summon item ~ ~ ~ {Item:{id:"minecraft:cow_spawn_egg",count:1}}
-execute if score @s nmr.nitwit.entity matches 30 run summon item ~ ~ ~ {Item:{id:"minecraft:pig_spawn_egg",count:1}}
-execute if score @s nmr.nitwit.entity matches 31 run summon item ~ ~ ~ {Item:{id:"minecraft:mooshroom_spawn_egg",count:1}}
-execute if score @s nmr.nitwit.entity matches 32 run summon item ~ ~ ~ {Item:{id:"minecraft:cod_spawn_egg",count:1}}
-execute if score @s nmr.nitwit.entity matches 33 run summon item ~ ~ ~ {Item:{id:"minecraft:turtle_spawn_egg",count:1}}
-execute if score @s nmr.nitwit.entity matches 34 run summon item ~ ~ ~ {Item:{id:"minecraft:tropical_fish_spawn_egg",count:1}}
-execute if score @s nmr.nitwit.entity matches 35 run summon item ~ ~ ~ {Item:{id:"minecraft:squid_spawn_egg",count:1}}
-execute if score @s nmr.nitwit.entity matches 36 run summon item ~ ~ ~ {Item:{id:"minecraft:glow_squid_spawn_egg",count:1}}
-execute if score @s nmr.nitwit.entity matches 37 run summon item ~ ~ ~ {Item:{id:"minecraft:sheep_spawn_egg",count:1}}
-execute if score @s nmr.nitwit.entity matches 38 run summon item ~ ~ ~ {Item:{id:"minecraft:rabbit_spawn_egg",count:1}}
-execute if score @s nmr.nitwit.entity matches 39 run summon item ~ ~ ~ {Item:{id:"minecraft:armadillo_spawn_egg",count:1}}
-execute if score @s nmr.nitwit.entity matches 40 run summon item ~ ~ ~ {Item:{id:"minecraft:snow_golem_spawn_egg",count:1}}
-execute if score @s nmr.nitwit.entity matches 41 run summon item ~ ~ ~ {Item:{id:"minecraft:salmon_spawn_egg",count:1}}
-execute if score @s nmr.nitwit.entity matches 42 run summon item ~ ~ ~ {Item:{id:"minecraft:pufferfish_spawn_egg",count:1}}
+execute if score @s nmr.nitwit.entity matches 28 run summon item ~ ~ ~ {Item:{id:"minecraft:bogged_spawn_egg",count:1}}
+execute if score @s nmr.nitwit.entity matches 29 run summon item ~ ~ ~ {Item:{id:"minecraft:chicken_spawn_egg",count:1}}
+execute if score @s nmr.nitwit.entity matches 30 run summon item ~ ~ ~ {Item:{id:"minecraft:cow_spawn_egg",count:1}}
+execute if score @s nmr.nitwit.entity matches 31 run summon item ~ ~ ~ {Item:{id:"minecraft:pig_spawn_egg",count:1}}
+execute if score @s nmr.nitwit.entity matches 32 run summon item ~ ~ ~ {Item:{id:"minecraft:mooshroom_spawn_egg",count:1}}
+execute if score @s nmr.nitwit.entity matches 33 run summon item ~ ~ ~ {Item:{id:"minecraft:cod_spawn_egg",count:1}}
+execute if score @s nmr.nitwit.entity matches 34 run summon item ~ ~ ~ {Item:{id:"minecraft:turtle_spawn_egg",count:1}}
+execute if score @s nmr.nitwit.entity matches 35 run summon item ~ ~ ~ {Item:{id:"minecraft:tropical_fish_spawn_egg",count:1}}
+execute if score @s nmr.nitwit.entity matches 36 run summon item ~ ~ ~ {Item:{id:"minecraft:squid_spawn_egg",count:1}}
+execute if score @s nmr.nitwit.entity matches 37 run summon item ~ ~ ~ {Item:{id:"minecraft:glow_squid_spawn_egg",count:1}}
+execute if score @s nmr.nitwit.entity matches 38 run summon item ~ ~ ~ {Item:{id:"minecraft:sheep_spawn_egg",count:1}}
+execute if score @s nmr.nitwit.entity matches 39 run summon item ~ ~ ~ {Item:{id:"minecraft:rabbit_spawn_egg",count:1}}
+execute if score @s nmr.nitwit.entity matches 40 run summon item ~ ~ ~ {Item:{id:"minecraft:armadillo_spawn_egg",count:1}}
+execute if score @s nmr.nitwit.entity matches 41 run summon item ~ ~ ~ {Item:{id:"minecraft:snow_golem_spawn_egg",count:1}}
+execute if score @s nmr.nitwit.entity matches 42 run summon item ~ ~ ~ {Item:{id:"minecraft:salmon_spawn_egg",count:1}}
+execute if score @s nmr.nitwit.entity matches 43 run summon item ~ ~ ~ {Item:{id:"minecraft:pufferfish_spawn_egg",count:1}}
 
-summon item ~ ~ ~ {Item:{id:"minecraft:knowledge_book",count:1,components:{"minecraft:item_name":'[{"bold":false,"color":"#FFE59D","italic":false,"text":"Recipe Book: "},{"bold":false,"color":"white","italic":false,"text":"Spawner"}]',"minecraft:lore":['{"text":"• Unlocks a crafting recipe","color":"gray","bold":false,"italic":false}'],"minecraft:recipes":["nmr:spawner"]}}}
+#summon item ~ ~ ~ {Item:{id:"minecraft:knowledge_book",count:1,components:{"minecraft:item_name":'[{"bold":false,"color":"#FFE59D","italic":false,"text":"Recipe Book: "},{"bold":false,"color":"white","italic":false,"text":"Spawner"}]',"minecraft:lore":['{"text":"• Unlocks a crafting recipe","color":"gray","bold":false,"italic":false}'],"minecraft:recipes":["nmr:spawner"]}}}
+recipe give @e[type=player,distance=..10] nmr:spawner
 
 playsound minecraft:ui.toast.challenge_complete player @a ~ ~ ~ .7 2
 particle poof ~ ~-1 ~ .5 .75 .5 0.01 150

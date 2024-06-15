@@ -86,6 +86,7 @@ scoreboard objectives add nmr.nitwit.armadillo dummy
 scoreboard objectives add nmr.nitwit.snow_golem dummy
 scoreboard objectives add nmr.nitwit.salmon dummy
 scoreboard objectives add nmr.nitwit.pufferfish dummy
+scoreboard objectives add nmr.nitwit.bogged dummy
 scoreboard objectives add nmr.find_look.temp dummy
 scoreboard objectives add nmr.find_look.const dummy
 
