@@ -10,7 +10,7 @@ scoreboard players set $filter nmr.find_look.temp 0
 tag @e remove find_looking.in_filter
 function nmr:bossbars/regular_entities/filter/iteration
 
-execute as @e[tag=find_looking.candidate] run team join nmr.looked_at @s
+execute as @e[tag=find_looking.candidate] at @s if entity @e[type=player,distance=..10,scores={healthbar=0}] run team join nmr.looked_at @s
 execute as @a at @s if entity @e[tag=find_looking.result,distance=..8] run function nmr:bossbars/regular_entities/player/get_uuid
 execute as @e[tag=find_looking.result] run function nmr:bossbars/regular_entities/get_name
 execute as @e[tag=find_looking.result] run function nmr:bossbars/regular_entities/update_bossbar with storage nmr:bossbars
