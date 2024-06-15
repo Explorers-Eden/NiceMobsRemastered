@@ -54,4 +54,7 @@ execute if dimension nmr:astral_plane if biome ~ ~ ~ nmr:astral_forest run tag @
 execute if dimension nmr:astral_plane if biome ~ ~ ~ nmr:astral_desert store result storage nmr:biome_levels level int 1 run random value 131..150
 execute if dimension nmr:astral_plane if biome ~ ~ ~ nmr:astral_desert run tag @s add exp_131_150
 
+execute unless predicate nmr:entity/has_exp_tag store result storage nmr:biome_levels level int 1 run random value 21..24
+execute unless predicate nmr:entity/has_exp_tag run tag @s add exp_21_24
+
 function nmr:biome_levels/get_data with storage nmr:biome_levels

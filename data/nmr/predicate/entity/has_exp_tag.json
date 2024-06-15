@@ -1,0 +1,251 @@
+[
+    {
+      "condition": "minecraft:any_of",
+      "terms": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+
+              "nbt": "{Tags:[\"exp_1_4\"]}"
+
+          }
+        },
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+
+              "nbt": "{Tags:[\"exp_5_8\"]}"
+
+          }
+        },
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+
+              "nbt": "{Tags:[\"exp_9_12\"]}"
+
+          }
+        },
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+
+              "nbt": "{Tags:[\"exp_13_16\"]}"
+
+          }
+        },
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+
+              "nbt": "{Tags:[\"exp_17_20\"]}"
+
+          }
+        },
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+
+              "nbt": "{Tags:[\"exp_21_24\"]}"
+
+          }
+        },
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+
+              "nbt": "{Tags:[\"exp_25_28\"]}"
+
+          }
+        },
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+
+              "nbt": "{Tags:[\"exp_29_32\"]}"
+
+          }
+        },
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+
+              "nbt": "{Tags:[\"exp_33_36\"]}"
+
+          }
+        },
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+
+              "nbt": "{Tags:[\"exp_37_40\"]}"
+
+          }
+        },
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+
+              "nbt": "{Tags:[\"exp_41_44\"]}"
+
+          }
+        },
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+
+              "nbt": "{Tags:[\"exp_45_48\"]}"
+
+          }
+        },
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+
+              "nbt": "{Tags:[\"exp_49_52\"]}"
+
+          }
+        },
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+
+              "nbt": "{Tags:[\"exp_53_56\"]}"
+
+          }
+        },
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+
+              "nbt": "{Tags:[\"exp_57_60\"]}"
+
+          }
+        },
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+
+              "nbt": "{Tags:[\"exp_61_64\"]}"
+
+          }
+        },
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+
+              "nbt": "{Tags:[\"exp_65_68\"]}"
+
+          }
+        },
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+
+              "nbt": "{Tags:[\"exp_69_72\"]}"
+
+          }
+        },
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+
+              "nbt": "{Tags:[\"exp_73_76\"]}"
+
+          }
+        },
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+
+              "nbt": "{Tags:[\"exp_77_80\"]}"
+
+          }
+        },
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+
+              "nbt": "{Tags:[\"exp_81_84\"]}"
+
+          }
+        },
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+
+              "nbt": "{Tags:[\"exp_85_88\"]}"
+
+          }
+        },
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+
+              "nbt": "{Tags:[\"exp_89_99\"]}"
+
+          }
+        },
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+
+              "nbt": "{Tags:[\"exp_100_110\"]}"
+
+          }
+        },
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+
+              "nbt": "{Tags:[\"exp_111_120\"]}"
+
+          }
+        },
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+
+              "nbt": "{Tags:[\"exp_121_130\"]}"
+
+          }
+        },
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+
+              "nbt": "{Tags:[\"exp_131_150\"]}"
+
+          }
+        }
+      ]
+    }
+  ]
+  

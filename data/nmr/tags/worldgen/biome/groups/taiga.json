@@ -18,6 +18,7 @@
         { "id": "terralith:snowy_shield","required": false},
         { "id": "terralith:wintry_lowlands","required": false},
         { "id": "terralith:yosemite_cliffs","required": false},
+        { "id": "terralith:highlands","required": false},
         { "id": "terralith:yosemite_lowlands","required": false}
     ]
 }
