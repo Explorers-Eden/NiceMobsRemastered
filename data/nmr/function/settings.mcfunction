@@ -150,6 +150,11 @@ tellraw @s {"bold":false,"clickEvent":\
 "hoverEvent":{"action":"show_text","value":[{"text":"Click To Toggle","color":"white","bold":false,"italic":false}]},\
 "color":"white","italic":false,"text":"29. Wandering Trader Mobheads"}
 
+tellraw @s {"bold":false,"clickEvent":\
+{"action":"run_command","value":"/function nmr:settings/toggle_illusioner"},\
+"hoverEvent":{"action":"show_text","value":[{"text":"Click To Toggle","color":"white","bold":false,"italic":false}]},\
+"color":"gray","italic":false,"text":"30. Villagers To Illusioners"}
+
 tellraw @s {"text":" ","color":"dark_gray","bold":false,"italic":true}
 
 tellraw @s {"bold":false,"clickEvent":\
