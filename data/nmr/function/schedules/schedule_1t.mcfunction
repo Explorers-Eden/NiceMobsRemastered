@@ -1,6 +1,6 @@
 execute if score $setting_scale nmr.technical matches 1 run function nmr:sizes/run
 execute if score $setting_equipment nmr.technical matches 1 run function nmr:equipment/run
-execute if score $setting_equipment nmr.technical matches 1 run function nmr:movement_speed/run
+execute if score $setting_move_speed nmr.technical matches 1 run function nmr:movement_speed/run
 function nmr:spawn_particles/run
 execute if score $setting_level nmr.technical matches 1 run function nmr:biome_levels/run
 execute if score $setting_nitwit nmr.technical matches 1 run function nmr:nitwit/animations

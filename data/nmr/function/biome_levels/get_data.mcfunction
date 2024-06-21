@@ -6,13 +6,13 @@ execute if dimension nmr:astral_plane store result score $multiplier nmr.technic
 
 function nmr:biome_levels/get_type
 
-execute if score $difficulty nmr.technical matches 1 store result score @s nmr.health.modified run scoreboard players operation @s nmr.health.base *= $50 nmr.technical
-execute if score $difficulty nmr.technical matches 2 store result score @s nmr.health.modified run scoreboard players operation @s nmr.health.base *= $75 nmr.technical
-execute if score $difficulty nmr.technical matches 3 store result score @s nmr.health.modified run scoreboard players operation @s nmr.health.base *= $100 nmr.technical
-execute if score $difficulty nmr.technical matches 4 store result score @s nmr.health.modified run scoreboard players operation @s nmr.health.base *= $125 nmr.technical
-execute if score $difficulty nmr.technical matches 5 store result score @s nmr.health.modified run scoreboard players operation @s nmr.health.base *= $150 nmr.technical
-execute if score $difficulty nmr.technical matches 6 store result score @s nmr.health.modified run scoreboard players operation @s nmr.health.base *= $175 nmr.technical
-execute if score $difficulty nmr.technical matches 7 store result score @s nmr.health.modified run scoreboard players operation @s nmr.health.base *= $200 nmr.technical
+execute if score $setting_difficulty nmr.technical matches 1 store result score @s nmr.health.modified run scoreboard players operation @s nmr.health.base *= $50 nmr.technical
+execute if score $setting_difficulty nmr.technical matches 2 store result score @s nmr.health.modified run scoreboard players operation @s nmr.health.base *= $75 nmr.technical
+execute if score $setting_difficulty nmr.technical matches 3 store result score @s nmr.health.modified run scoreboard players operation @s nmr.health.base *= $100 nmr.technical
+execute if score $setting_difficulty nmr.technical matches 4 store result score @s nmr.health.modified run scoreboard players operation @s nmr.health.base *= $125 nmr.technical
+execute if score $setting_difficulty nmr.technical matches 5 store result score @s nmr.health.modified run scoreboard players operation @s nmr.health.base *= $150 nmr.technical
+execute if score $setting_difficulty nmr.technical matches 6 store result score @s nmr.health.modified run scoreboard players operation @s nmr.health.base *= $175 nmr.technical
+execute if score $setting_difficulty nmr.technical matches 7 store result score @s nmr.health.modified run scoreboard players operation @s nmr.health.base *= $200 nmr.technical
 execute store result score @s nmr.health.increased run scoreboard players operation @s nmr.health.modified /= $100 nmr.technical
 execute store result score @s nmr.health.modified run scoreboard players operation @s nmr.health.increased *= $multiplier nmr.technical
 execute store result score @s nmr.health.base run scoreboard players operation @s nmr.health.modified /= $100 nmr.technical
@@ -22,13 +22,13 @@ scoreboard players reset @s nmr.health.modified
 scoreboard players reset @s nmr.health.increased
 
 execute store result score @s nmr.damage.base run attribute @s minecraft:generic.attack_damage get
-execute if score $difficulty nmr.technical matches 1 store result score @s nmr.damage.modified run scoreboard players operation @s nmr.damage.base *= $50 nmr.technical
-execute if score $difficulty nmr.technical matches 2 store result score @s nmr.damage.modified run scoreboard players operation @s nmr.damage.base *= $75 nmr.technical
-execute if score $difficulty nmr.technical matches 3 store result score @s nmr.damage.modified run scoreboard players operation @s nmr.damage.base *= $100 nmr.technical
-execute if score $difficulty nmr.technical matches 4 store result score @s nmr.damage.modified run scoreboard players operation @s nmr.damage.base *= $125 nmr.technical
-execute if score $difficulty nmr.technical matches 5 store result score @s nmr.damage.modified run scoreboard players operation @s nmr.damage.base *= $150 nmr.technical
-execute if score $difficulty nmr.technical matches 6 store result score @s nmr.damage.modified run scoreboard players operation @s nmr.damage.base *= $175 nmr.technical
-execute if score $difficulty nmr.technical matches 7 store result score @s nmr.damage.modified run scoreboard players operation @s nmr.damage.base *= $200 nmr.technical
+execute if score $setting_difficulty nmr.technical matches 1 store result score @s nmr.damage.modified run scoreboard players operation @s nmr.damage.base *= $50 nmr.technical
+execute if score $setting_difficulty nmr.technical matches 2 store result score @s nmr.damage.modified run scoreboard players operation @s nmr.damage.base *= $75 nmr.technical
+execute if score $setting_difficulty nmr.technical matches 3 store result score @s nmr.damage.modified run scoreboard players operation @s nmr.damage.base *= $100 nmr.technical
+execute if score $setting_difficulty nmr.technical matches 4 store result score @s nmr.damage.modified run scoreboard players operation @s nmr.damage.base *= $125 nmr.technical
+execute if score $setting_difficulty nmr.technical matches 5 store result score @s nmr.damage.modified run scoreboard players operation @s nmr.damage.base *= $150 nmr.technical
+execute if score $setting_difficulty nmr.technical matches 6 store result score @s nmr.damage.modified run scoreboard players operation @s nmr.damage.base *= $175 nmr.technical
+execute if score $setting_difficulty nmr.technical matches 7 store result score @s nmr.damage.modified run scoreboard players operation @s nmr.damage.base *= $200 nmr.technical
 execute store result score @s nmr.damage.reduced run scoreboard players operation @s nmr.damage.base /= $100 nmr.technical
 execute store result score @s nmr.damage.base run scoreboard players operation @s nmr.damage.reduced *= $multiplier nmr.technical
 execute store result score @s nmr.damage.modified run scoreboard players operation @s nmr.damage.base /= $100 nmr.technical
