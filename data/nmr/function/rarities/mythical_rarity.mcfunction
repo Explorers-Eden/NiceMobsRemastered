@@ -10,7 +10,7 @@ $data modify entity @s CustomName set value '{"text":"⚔ $(first_name) $(last_n
 
 tag @s add nmr_has_display
 
-data modify entity @s PersistenceRequired set value 1b
+#data modify entity @s PersistenceRequired set value 1b
 
 team join nmr_special_mobs
 
