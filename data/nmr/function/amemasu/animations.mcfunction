@@ -1,8 +1,5 @@
-execute as @e[type=player] at @s unless entity @e[type=item_display,tag=nmr_amemasu_head,distance=..48] run return fail
 execute as @e[type=item_display,tag=nmr_amemasu_head,predicate=!nmr:entity/headmob_vehicle] run kill @s
 execute as @e[type=item_display,tag=nmr_amemasu_head] at @s run tp @s ~ ~ ~ facing entity @p[distance=..48,limit=1,sort=nearest] eyes
-
-execute as @e[type=player] at @s unless entity @e[type=vex,tag=nmr_amemasu,distance=..48] run return fail
 execute as @e[type=vex,tag=nmr_amemasu] at @s run particle falling_water ^ ^ ^ 1.2 .5 1.2 0 25
 execute as @e[type=vex,tag=nmr_amemasu] at @s run particle end_rod ^ ^ ^ 1.5 .5 1.5 0 5
 execute as @e[type=vex,tag=nmr_amemasu] at @s run particle dust{color:[1.000,1.000,1.000],scale:2} ^ ^ ^ 1.5 .5 1.5 0 25

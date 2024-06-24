@@ -1,5 +1,3 @@
-execute as @e[type=player] at @s unless entity @e[type=minecraft:item_display,tag=nmr_golden_guardian_head,distance=..48] run return fail
-
 execute if score $nmr_golden_guardian_breathing nmr.technical matches 1 as @e[type=minecraft:item_display,tag=nmr_golden_guardian_head] run data modify entity @s transformation set value {left_rotation:[0f,-0.11f,0f,0.994f],right_rotation:[0f,-0.992f,0f,0.12f],translation:[0f,0f,0f],scale:[3.0f,3.0f,3.0f]}
 execute if score $nmr_golden_guardian_breathing nmr.technical matches 2 as @e[type=minecraft:item_display,tag=nmr_golden_guardian_head] run data modify entity @s transformation set value {left_rotation:[0f,-0.11f,0f,0.994f],right_rotation:[0f,-0.992f,0f,0.12f],translation:[0f,0f,0f],scale:[3.05f,3.05f,3.05f]}
 execute if score $nmr_golden_guardian_breathing nmr.technical matches 3 as @e[type=minecraft:item_display,tag=nmr_golden_guardian_head] run data modify entity @s transformation set value {left_rotation:[0f,-0.11f,0f,0.994f],right_rotation:[0f,-0.992f,0f,0.12f],translation:[0f,0f,0f],scale:[3.10f,3.10f,3.10f]}

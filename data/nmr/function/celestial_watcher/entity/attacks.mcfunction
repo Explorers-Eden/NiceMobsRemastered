@@ -1,5 +1,3 @@
-execute as @e[type=player] at @s unless entity @e[type=item_display,tag=nmr_celestial_watcher_sides,distance=..48] run return fail
-
 execute if predicate nmr:percentages/20percent as @e[type=item_display,tag=nmr_celestial_watcher_head] at @s run function nmr:celestial_watcher/entity/bullet
 
 execute if predicate nmr:percentages/30percent store result score $nmr_shoot_1 nmr.technical run random value 1..5

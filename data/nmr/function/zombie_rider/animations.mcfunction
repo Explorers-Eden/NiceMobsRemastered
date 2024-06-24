@@ -1,3 +1,2 @@
-execute as @e[type=player] at @s unless entity @e[type=zombie_horse,tag=nmr_zombie_horse,distance=..48] run return fail
 execute as @e[type=zombie_horse,tag=nmr_zombie_horse] at @s store result entity @e[type=zombie,tag=nmr_zombie_rider,limit=1,sort=nearest] Rotation[0] float 0.0001 run data get entity @s Rotation[0] 10000
 execute at @e[type=zombie_horse,tag=nmr_zombie_horse] as @e[type=zombie_horse,tag=nmr_zombie_horse] unless entity @e[type=zombie,tag=nmr_zombie_rider,distance=..5] run kill @e[type=zombie_horse,distance=..1,tag=nmr_zombie_horse]
