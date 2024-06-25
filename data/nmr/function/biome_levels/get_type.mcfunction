@@ -67,3 +67,5 @@ execute as @s[type=magma_cube,predicate=!nmr:entity/has_custom_name] run data mo
 execute as @s[type=vindicator,predicate=!nmr:entity/has_custom_name] run data modify storage nmr:biome_levels type set value "Vindicator"
 execute as @s[type=witch,predicate=!nmr:entity/has_custom_name] run data modify storage nmr:biome_levels type set value "Witch"
 execute as @s[type=zoglin,predicate=!nmr:entity/has_custom_name] run data modify storage nmr:biome_levels type set value "Zoglin"
+execute as @s[type=bogged,predicate=!nmr:entity/has_custom_name] run data modify storage nmr:biome_levels type set value "Bogged"
+execute as @s[type=breeze,predicate=!nmr:entity/has_custom_name] run data modify storage nmr:biome_levels type set value "Breeze"
