@@ -1149,6 +1149,21 @@
             ]
           }
         ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "value": "nmr:maps/overworld_maps",
+            "conditions": [
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.4
+              }
+            ]
+          }
+        ]
       }
     ]
   }
