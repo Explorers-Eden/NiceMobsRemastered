@@ -136,11 +136,6 @@ tellraw @s {"bold":false,"clickEvent":\
 "color":"gray","italic":false,"text":"26. Randomised Shulker Colors"}
 
 tellraw @s {"bold":false,"clickEvent":\
-{"action":"run_command","value":"/function nmr:settings/toggle_firefly_particle"},\
-"hoverEvent":{"action":"show_text","value":[{"text":"Click To Toggle","color":"white","bold":false,"italic":false}]},\
-"color":"white","italic":false,"text":"27. Firefly Particle"}
-
-tellraw @s {"bold":false,"clickEvent":\
 {"action":"run_command","value":"/function nmr:settings/toggle_wither_tp"},\
 "hoverEvent":{"action":"show_text","value":[{"text":"Click To Toggle","color":"white","bold":false,"italic":false}]},\
 "color":"gray","italic":false,"text":"28. Wither TP When At World Height"}

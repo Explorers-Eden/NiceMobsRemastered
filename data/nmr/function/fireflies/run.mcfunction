@@ -1,2 +1,0 @@
-execute as @e[type=!player,tag=!nmr_fireflies_set] at @s if biome ~ ~ ~ #nmr:groups/swamp unless entity @e[type=marker,tag=nmr_fireflies,distance=..20] if predicate nmr:percentages/25percent run summon marker ~ ~4 ~ {Tags:["nmr_fireflies"]} 
-execute as @e[type=!player,tag=!nmr_fireflies_set] at @s if biome ~ ~ ~ #nmr:groups/swamp run tag @s add nmr_fireflies_set

@@ -1,1 +1,0 @@
-execute at @e[type=marker,tag=nmr_fireflies] if predicate nmr:percentages/10percent run particle end_rod ~ ~ ~ 15 8 15 .1 2

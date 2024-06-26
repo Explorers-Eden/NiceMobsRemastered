@@ -14,7 +14,6 @@ function nmr:glowing/join_teams
 function nmr:redstone_ghost/animations
 execute if score $setting_hermit_crab nmr.technical matches 1 run function nmr:hermit_crab/animations
 execute if score $setting_penguin nmr.technical matches 1 run function nmr:penguin/animations
-execute if score $setting_firefly_particle nmr.technical matches 1 run function nmr:fireflies/animations
 execute if score $setting_hedgehog nmr.technical matches 1 run function nmr:hedgehog/animations
 function nmr:celestial_watcher/structure/portal/run
 function nmr:astral_plane/portal/run
