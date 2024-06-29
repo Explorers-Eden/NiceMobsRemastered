@@ -138,17 +138,27 @@ tellraw @s {"bold":false,"clickEvent":\
 tellraw @s {"bold":false,"clickEvent":\
 {"action":"run_command","value":"/function nmr:settings/toggle_wither_tp"},\
 "hoverEvent":{"action":"show_text","value":[{"text":"Click To Toggle","color":"white","bold":false,"italic":false}]},\
-"color":"gray","italic":false,"text":"28. Wither TP When At World Height"}
+"color":"gray","italic":false,"text":"27. Wither TP When At World Height"}
 
 tellraw @s {"bold":false,"clickEvent":\
 {"action":"run_command","value":"/function nmr:settings/toggle_wandering_trader"},\
 "hoverEvent":{"action":"show_text","value":[{"text":"Click To Toggle","color":"white","bold":false,"italic":false}]},\
-"color":"white","italic":false,"text":"29. Wandering Trader Mobheads"}
+"color":"white","italic":false,"text":"28. Wandering Trader Mobheads"}
 
 tellraw @s {"bold":false,"clickEvent":\
 {"action":"run_command","value":"/function nmr:settings/toggle_illusioner"},\
 "hoverEvent":{"action":"show_text","value":[{"text":"Click To Toggle","color":"white","bold":false,"italic":false}]},\
-"color":"gray","italic":false,"text":"30. Villagers To Illusioners"}
+"color":"gray","italic":false,"text":"29. Villagers To Illusioners"}
+
+tellraw @s {"bold":false,"clickEvent":\
+{"action":"run_command","value":"/function nmr:settings/toggle_iron_golem"},\
+"hoverEvent":{"action":"show_text","value":[{"text":"Click To Toggle","color":"white","bold":false,"italic":false}]},\
+"color":"white","italic":false,"text":"30. Angry Iron Golems"}
+
+tellraw @s {"bold":false,"clickEvent":\
+{"action":"run_command","value":"/function nmr:settings/toggle_boo"},\
+"hoverEvent":{"action":"show_text","value":[{"text":"Click To Toggle","color":"white","bold":false,"italic":false}]},\
+"color":"gray","italic":false,"text":"31. Boo Spawning"}
 
 tellraw @s {"text":" ","color":"dark_gray","bold":false,"italic":true}
 

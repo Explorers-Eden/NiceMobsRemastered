@@ -89,6 +89,7 @@ scoreboard objectives add nmr.nitwit.pufferfish minecraft.killed:minecraft.puffe
 scoreboard objectives add nmr.nitwit.bogged minecraft.killed:minecraft.bogged
 scoreboard objectives add nmr.find_look.temp dummy
 scoreboard objectives add nmr.find_look.const dummy
+scoreboard objectives add nmr.open.chest minecraft.custom:minecraft.open_chest
 
 ##set scoreboards
 scoreboard players set $nmr_golden_guardian_breathing nmr.technical 1

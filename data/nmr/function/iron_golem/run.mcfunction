@@ -1,0 +1,1 @@
+execute as @a[scores={nmr.open.chest=1..}] run function nmr:iron_golem/set_anger
