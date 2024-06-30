@@ -1,6 +1,5 @@
 function nmr:rarities/get_first_name
 function nmr:rarities/get_last_name
-function nmr:rarities/get_uuid
 
 execute store result score $nmr_rarity nmr.technical run random value 1..100
 

@@ -1,4 +1,3 @@
-$kill @e[type=text_display,tag=nmr_level_display,tag=$(uuid_0)$(uuid_1)$(uuid_2)$(uuid_3)]
 data modify entity @s DeathLootTable set value "minecraft:chests/ancient_city"
 
 attribute @s minecraft:generic.max_health base set 50 
