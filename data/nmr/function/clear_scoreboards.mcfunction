@@ -1,3 +1,4 @@
+##scheduled for removal with next update
 scoreboard objectives remove nmr.health.base
 scoreboard objectives remove nmr.health.modified
 scoreboard objectives remove nmr.health.increased
@@ -52,18 +53,6 @@ scoreboard objectives remove nmr.nitwit.snow_golem
 scoreboard objectives remove nmr.nitwit.salmon
 scoreboard objectives remove nmr.nitwit.pufferfish
 scoreboard objectives remove nmr.nitwit.bogged
-
-
-scoreboard objectives add nmr.health.base dummy
-scoreboard objectives add nmr.health.modified dummy
-scoreboard objectives add nmr.health.increased dummy
-scoreboard objectives add nmr.health.current dummy
-scoreboard objectives add nmr.health.percent dummy
-scoreboard objectives add nmr.health.temp dummy
-scoreboard objectives add nmr.health.max dummy
-scoreboard objectives add nmr.damage.base dummy
-scoreboard objectives add nmr.damage.modified dummy
-scoreboard objectives add nmr.damage.reduced dummy
 
 scoreboard objectives add nmr.nitwit.zombie minecraft.killed:minecraft.zombie
 scoreboard objectives add nmr.nitwit.drowned minecraft.killed:minecraft.drowned

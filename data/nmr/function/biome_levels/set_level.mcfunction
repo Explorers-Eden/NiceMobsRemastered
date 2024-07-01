@@ -1,6 +1,6 @@
-$attribute @s minecraft:generic.max_health base set $(modified_health)
-$data modify entity @s Health set value $(modified_health).0f
-$attribute @s minecraft:generic.attack_damage base set $(modified_damage)
+$attribute @s minecraft:generic.max_health modifier add nmr.max.health $(modifier) add_multiplied_base
+execute store result entity @s Health int 1 run attribute @s minecraft:generic.max_health get
+$attribute @s minecraft:generic.attack_damage modifier add nmr.attack.dmg $(modifier) add_multiplied_base
 
 $execute if entity @s[tag=exp_1_4] run data modify entity @s CustomName set value '{"text":"$(type) • Lvl: $(level)","color":"white","italic":false}'
 $execute if entity @s[tag=exp_5_8] run data modify entity @s CustomName set value '{"text":"$(type) • Lvl: $(level)","color":"green","italic":false}'
@@ -32,3 +32,5 @@ $execute if entity @s[tag=exp_131_150] run data modify entity @s CustomName set 
 
 tag @s add nmr_has_display
 tag @s add nmr_level_set
+
+$say $(modifier)

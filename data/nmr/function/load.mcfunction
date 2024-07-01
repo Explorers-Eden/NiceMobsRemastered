@@ -29,16 +29,6 @@ scoreboard objectives add nmr.technical dummy
 scoreboard objectives add nmr.piglinaut.killcount dummy
 scoreboard objectives add nmr.celestialwatcher.circling dummy
 scoreboard objectives add nmr.celestialwatcher.defeated dummy
-scoreboard objectives add nmr.health.base dummy
-scoreboard objectives add nmr.health.max dummy
-scoreboard objectives add nmr.health.current dummy
-scoreboard objectives add nmr.health.temp dummy
-scoreboard objectives add nmr.health.percent dummy
-scoreboard objectives add nmr.health.modified dummy
-scoreboard objectives add nmr.health.increased dummy
-scoreboard objectives add nmr.damage.base dummy
-scoreboard objectives add nmr.damage.reduced dummy
-scoreboard objectives add nmr.damage.modified dummy
 scoreboard objectives add nmr.horse.data dummy
 scoreboard objectives add nmr.penguin.breathing dummy
 scoreboard objectives add nmr.nitwit.goal dummy
@@ -102,7 +92,6 @@ scoreboard players set $100 nmr.technical 100
 scoreboard players set $75 nmr.technical 75
 scoreboard players set $50 nmr.technical 50
 scoreboard players set $2 nmr.technical 2
-scoreboard players set $health_multiplier nmr.technical 100
 scoreboard players set 2 nmr.find_look.const 2
 
 ##schedule functions
