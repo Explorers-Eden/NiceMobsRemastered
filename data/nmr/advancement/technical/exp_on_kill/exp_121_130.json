@@ -11,7 +11,7 @@
             }
           ],
           "entity": {
-            "type": "#nmr:has_health_display",
+            "type": "#nmr:can_exp",
             "nbt": "{Tags:[\"exp_121_130\"]}"
           }
         }

@@ -1,15 +1,3 @@
-##scheduled for removal with next update
-scoreboard objectives remove nmr.health.base
-scoreboard objectives remove nmr.health.modified
-scoreboard objectives remove nmr.health.increased
-scoreboard objectives remove nmr.health.current
-scoreboard objectives remove nmr.health.percent
-scoreboard objectives remove nmr.health.temp
-scoreboard objectives remove nmr.health.max
-scoreboard objectives remove nmr.damage.base
-scoreboard objectives remove nmr.damage.modified
-scoreboard objectives remove nmr.damage.reduced
-
 scoreboard objectives remove nmr.nitwit.zombie
 scoreboard objectives remove nmr.nitwit.drowned
 scoreboard objectives remove nmr.nitwit.husk
