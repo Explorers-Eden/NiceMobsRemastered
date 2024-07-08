@@ -1,6 +1,0 @@
-{
-    "values": [
-        { "id": "minecraft:dark_forest","required": false},
-        { "id": "terralith:sakura_grove","required": false}
-    ]
-}

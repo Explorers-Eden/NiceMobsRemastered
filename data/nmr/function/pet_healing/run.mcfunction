@@ -1,1 +1,0 @@
-execute as @e[type=#nmr:tamable_animals] at @s if entity @a[distance=..10,scores={pet_healing=0}] run function nmr:pet_healing/get_data

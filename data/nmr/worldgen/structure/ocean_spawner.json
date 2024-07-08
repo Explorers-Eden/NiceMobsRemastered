@@ -1,6 +1,6 @@
 {
     "type": "minecraft:jigsaw",
-    "biomes": "#nmr:groups/ocean",
+    "biomes": "#nmr:ocean",
     "step": "surface_structures",
     "spawn_overrides": {},
     "terrain_adaptation": "none",

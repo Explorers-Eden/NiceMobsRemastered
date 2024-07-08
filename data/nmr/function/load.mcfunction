@@ -1,8 +1,4 @@
 ##add trigger scoreboards
-scoreboard objectives add region_info trigger
-scoreboard objectives add region_info_msg_on dummy
-scoreboard objectives add region_info_msg_off dummy
-scoreboard objectives modify region_info displayname "Region Info Display Toggle"
 scoreboard objectives add horse_stats trigger
 scoreboard objectives add horse_stats_msg_on dummy
 scoreboard objectives add horse_stats_msg_off dummy
@@ -11,10 +7,6 @@ scoreboard objectives add villager_dismount trigger
 scoreboard objectives add villager_dismount_msg_on dummy
 scoreboard objectives add villager_dismount_msg_off dummy
 scoreboard objectives modify villager_dismount displayname "Right Click Villager Dismount Toggle"
-scoreboard objectives add pet_healing trigger
-scoreboard objectives add pet_healing_msg_on dummy
-scoreboard objectives add pet_healing_msg_off dummy
-scoreboard objectives modify pet_healing displayname "Pet Healing Toggle"
 scoreboard objectives add healthbar trigger
 scoreboard objectives add healthbar_msg_on dummy
 scoreboard objectives add healthbar_msg_off dummy

@@ -4,13 +4,11 @@
       "minecraft:husk",
       "minecraft:phantom",
       "minecraft:skeleton",
-      "minecraft:skeleton_horse",
       "minecraft:stray",
       "minecraft:iron_golem",
       "minecraft:wither_skeleton",
       "minecraft:zoglin",
       "minecraft:zombie",
-      "minecraft:zombie_horse",
       "minecraft:zombie_villager",
       "minecraft:zombified_piglin",
       "minecraft:blaze",
@@ -36,7 +34,6 @@
       "minecraft:illusioner",
       "minecraft:magma_cube",
       "minecraft:vindicator",
-      "minecraft:witch",
-      "minecraft:zoglin"
+      "minecraft:witch"
     ]
   }

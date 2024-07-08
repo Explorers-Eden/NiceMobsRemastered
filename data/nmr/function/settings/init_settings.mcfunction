@@ -1,6 +1,4 @@
-scoreboard players set $setting_difficulty nmr.technical 4
 scoreboard players set $setting_scale nmr.technical 1
-scoreboard players set $setting_level nmr.technical 1
 scoreboard players set $setting_equipment nmr.technical 1
 scoreboard players set $setting_move_speed nmr.technical 1
 scoreboard players set $setting_jeb nmr.technical 1
@@ -27,6 +25,5 @@ scoreboard players set $setting_shulker_color nmr.technical 1
 scoreboard players set $setting_zombie_rider nmr.technical 1
 scoreboard players set $setting_wither_tp nmr.technical 1
 scoreboard players set $setting_wandering_trader nmr.technical 1
-scoreboard players set $setting_illusioner nmr.technical 1
 scoreboard players set $setting_iron_golem nmr.technical 1
 scoreboard players set $setting_boo nmr.technical 1

@@ -1,3 +1,0 @@
-$execute store result bossbar nmr:player_$(player_uuid_0)$(player_uuid_1)$(player_uuid_2)$(player_uuid_3) max run attribute @s minecraft:generic.max_health get
-$execute store result bossbar nmr:player_$(player_uuid_0)$(player_uuid_1)$(player_uuid_2)$(player_uuid_3) value run data get entity @s Health
-$bossbar set nmr:player_$(player_uuid_0)$(player_uuid_1)$(player_uuid_2)$(player_uuid_3) name $(entity_name)
