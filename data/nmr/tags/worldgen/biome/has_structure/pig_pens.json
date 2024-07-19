@@ -14,6 +14,22 @@
         "minecraft:ice_spikes",
         "minecraft:plains",
         "minecraft:savanna",
+
+        { "id": "eden:forest","required": false},
+        { "id": "eden:flower_forest","required": false},
+        { "id": "eden:savanna","required": false},
+        { "id": "eden:mushroom_fields","required": false},
+        { "id": "eden:badlands","required": false},
+        { "id": "eden:wooded_badlands","required": false},
+        { "id": "eden:birch_forest","required": false},
+        { "id": "eden:dark_forest","required": false},
+        { "id": "eden:cherry_grove","required": false},
+        { "id": "eden:taiga","required": false},
+        { "id": "eden:snowy_taiga","required": false},
+        { "id": "eden:ice_spikes","required": false},
+        { "id": "eden:plains","required": false},
+        { "id": "eden:savanna","required": false},
+
         { 
             "id": "terralith:blooming_plateau",
             "required": false
