@@ -3,10 +3,6 @@ scoreboard objectives add horse_stats trigger
 scoreboard objectives add horse_stats_msg_on dummy
 scoreboard objectives add horse_stats_msg_off dummy
 scoreboard objectives modify horse_stats displayname "Horse Stats Display Toggle"
-scoreboard objectives add villager_dismount trigger
-scoreboard objectives add villager_dismount_msg_on dummy
-scoreboard objectives add villager_dismount_msg_off dummy
-scoreboard objectives modify villager_dismount displayname "Right Click Villager Dismount Toggle"
 scoreboard objectives add healthbar trigger
 scoreboard objectives add healthbar_msg_on dummy
 scoreboard objectives add healthbar_msg_off dummy
