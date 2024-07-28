@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "spawn_eggs",
+    "pattern": [
+      "xxx",
+      "x#x",
+      "xxx"
+    ],
+    "key": {
+      "x": {
+        "item": "minecraft:snowball"
+      },
+      "#": {
+        "item": "minecraft:dragon_egg"
+      }
+    },
+    "result": {
+      "id": "minecraft:snow_golem_spawn_egg"
+    }
+  }
+  

@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "spawn_eggs",
+    "pattern": [
+      "xxx",
+      "x#x",
+      "xxx"
+    ],
+    "key": {
+      "x": {
+        "item": "minecraft:phantom_membrane"
+      },
+      "#": {
+        "item": "minecraft:dragon_egg"
+      }
+    },
+    "result": {
+      "id": "minecraft:phantom_spawn_egg"
+    }
+  }
+  

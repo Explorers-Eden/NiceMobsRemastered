@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "spawn_eggs",
+    "pattern": [
+      "xxx",
+      "x#x",
+      "xxx"
+    ],
+    "key": {
+      "x": {
+        "item": "minecraft:pufferfish"
+      },
+      "#": {
+        "item": "minecraft:dragon_egg"
+      }
+    },
+    "result": {
+      "id": "minecraft:pufferfish_spawn_egg"
+    }
+  }
+  

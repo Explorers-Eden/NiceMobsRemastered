@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "spawn_eggs",
+    "pattern": [
+      "xxx",
+      "x#x",
+      "xxx"
+    ],
+    "key": {
+      "x": {
+        "item": "minecraft:red_mushroom"
+      },
+      "#": {
+        "item": "minecraft:dragon_egg"
+      }
+    },
+    "result": {
+      "id": "minecraft:mooshroom_spawn_egg"
+    }
+  }
+  

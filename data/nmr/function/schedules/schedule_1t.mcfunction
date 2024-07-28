@@ -1,7 +1,6 @@
 execute if score $setting_scale nmr.technical matches 1 run function nmr:sizes/run
 execute if score $setting_equipment nmr.technical matches 1 run function nmr:equipment/run
 execute if score $setting_move_speed nmr.technical matches 1 run function nmr:movement_speed/run
-execute if score $setting_nitwit nmr.technical matches 1 run function nmr:nitwit/animations
 function nmr:celestial_watcher/entity/animations
 execute as @e[type=vex,predicate=nmr:world/in_astral_plane,tag=!nmr_celestial_protector] at @s run function nmr:astral_plane/protector/spawn
 execute as @a[predicate=nmr:world/in_astral_plane] run effect clear @s night_vision

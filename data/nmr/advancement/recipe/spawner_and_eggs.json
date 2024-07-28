@@ -1,0 +1,58 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "entity": {
+            "type": "minecraft:ender_dragon"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "recipes": [
+        "nmr:spawner",
+        "nmr:spawn_eggs/armadillo",
+        "nmr:spawn_eggs/blaze",
+        "nmr:spawn_eggs/bogged",
+        "nmr:spawn_eggs/cave_spider",
+        "nmr:spawn_eggs/chicken",
+        "nmr:spawn_eggs/cod",
+        "nmr:spawn_eggs/cow",
+        "nmr:spawn_eggs/creeper",
+        "nmr:spawn_eggs/drowned",
+        "nmr:spawn_eggs/enderman",
+        "nmr:spawn_eggs/evoker",
+        "nmr:spawn_eggs/ghast",
+        "nmr:spawn_eggs/glow_squid",
+        "nmr:spawn_eggs/guardian",
+        "nmr:spawn_eggs/husk",
+        "nmr:spawn_eggs/iron_golem",
+        "nmr:spawn_eggs/magma_cube",
+        "nmr:spawn_eggs/mooshroom",
+        "nmr:spawn_eggs/phantom",
+        "nmr:spawn_eggs/pig",
+        "nmr:spawn_eggs/pillager",
+        "nmr:spawn_eggs/pufferfish",
+        "nmr:spawn_eggs/rabbit",
+        "nmr:spawn_eggs/salmon",
+        "nmr:spawn_eggs/sheep",
+        "nmr:spawn_eggs/shulker",
+        "nmr:spawn_eggs/skeleton",
+        "nmr:spawn_eggs/slime",
+        "nmr:spawn_eggs/snow_golem",
+        "nmr:spawn_eggs/spider",
+        "nmr:spawn_eggs/squid",
+        "nmr:spawn_eggs/stray",
+        "nmr:spawn_eggs/tropical_fish",
+        "nmr:spawn_eggs/turtle",
+        "nmr:spawn_eggs/villager",
+        "nmr:spawn_eggs/vindicator",
+        "nmr:spawn_eggs/witch",
+        "nmr:spawn_eggs/wither_skeleton",
+        "nmr:spawn_eggs/zombie",
+        "nmr:spawn_eggs/zombified_piglin"
+      ]
+    }
+  }
+  

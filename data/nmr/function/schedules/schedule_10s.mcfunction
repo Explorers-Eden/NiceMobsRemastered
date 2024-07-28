@@ -3,6 +3,7 @@ function nmr:other/silence_mobs
 function nmr:other/unsilence_mobs
 execute if score $setting_snail nmr.technical matches 1 run function nmr:snail/slime_drop
 execute if score $setting_hedgehog nmr.technical matches 1 run function nmr:hedgehog/run_aggro
+function nmr:panda_gene/run
 
 execute as @a[nbt={FallFlying:1b},predicate=nmr:world/in_astral_plane] run effect give @s wither 11 0 true
 execute as @a[nbt={FallFlying:1b},predicate=nmr:world/in_astral_plane] run effect give @s darkness 11 0 true

@@ -41,9 +41,9 @@ tellraw @s {"bold":false,"clickEvent":\
 "color":"white","italic":false,"text":"07. Mob Rarities"}
 
 tellraw @s {"bold":false,"clickEvent":\
-{"action":"run_command","value":"/function nmr:settings/toggle_nitwit"},\
+{"action":"run_command","value":"/function nmr:settings/toggle_boo"},\
 "hoverEvent":{"action":"show_text","value":[{"text":"Click To Toggle","color":"white","bold":false,"italic":false}]},\
-"color":"gray","italic":false,"text":"08. Nitwit Quests"}
+"color":"gray","italic":false,"text":"08. Boo Spawning"}
 
 tellraw @s {"bold":false,"clickEvent":\
 {"action":"run_command","value":"/function nmr:settings/toggle_penguin"},\
@@ -134,16 +134,6 @@ tellraw @s {"bold":false,"clickEvent":\
 {"action":"run_command","value":"/function nmr:settings/toggle_wandering_trader"},\
 "hoverEvent":{"action":"show_text","value":[{"text":"Click To Toggle","color":"white","bold":false,"italic":false}]},\
 "color":"white","italic":false,"text":"26. Wandering Trader Mobheads"}
-
-tellraw @s {"bold":false,"clickEvent":\
-{"action":"run_command","value":"/function nmr:settings/toggle_iron_golem"},\
-"hoverEvent":{"action":"show_text","value":[{"text":"Click To Toggle","color":"white","bold":false,"italic":false}]},\
-"color":"gray","italic":false,"text":"27. Angry Iron Golems"}
-
-tellraw @s {"bold":false,"clickEvent":\
-{"action":"run_command","value":"/function nmr:settings/toggle_boo"},\
-"hoverEvent":{"action":"show_text","value":[{"text":"Click To Toggle","color":"white","bold":false,"italic":false}]},\
-"color":"white","italic":false,"text":"28. Boo Spawning"}
 
 tellraw @s {"text":" ","color":"dark_gray","bold":false,"italic":true}
 

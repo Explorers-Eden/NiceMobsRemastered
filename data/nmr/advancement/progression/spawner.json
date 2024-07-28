@@ -9,7 +9,7 @@
       "show_toast": true,
       "announce_to_chat": false
     },
-    "parent": "nmr:progression/nitwit_quest",
+    "parent": "nmr:progression/root",
     "criteria": {
       "requirement": {
         "trigger": "minecraft:inventory_changed",
