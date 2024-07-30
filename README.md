@@ -4,9 +4,6 @@
 ## 📖 Description
 **Nice Mobs Remastered** reworks, remasters and adds new mobs and mob related mechanics to the game to make each survival experience more thrilling and exciting. From nearly unlimited combinations for hostile mob equipment over the addition of new mobs to a completly new late game dimension, this datapack offers a vast amount of features to spruce up every Minecraft server and single player world.
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/9FfrPTHDLnU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<br><br>
-
 ## ⭐ Features
 - A new late game dimension, the Astral Plane
 - 2 new armor sets with new effects
