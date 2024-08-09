@@ -3,6 +3,5 @@ execute if score $setting_ender_skeleton nmr.technical matches 1 run function nm
 function nmr:celestial_watcher/structure/animations
 function nmr:bossbars/run
 function nmr:trigger/run
-function nmr:items/armor_sets
 
 schedule function nmr:schedules/schedule_10t 10t
