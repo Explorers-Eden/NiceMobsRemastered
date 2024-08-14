@@ -130,11 +130,6 @@ tellraw @s {"bold":false,"clickEvent":\
 "hoverEvent":{"action":"show_text","value":[{"text":"Click To Toggle","color":"white","bold":false,"italic":false}]},\
 "color":"gray","italic":false,"text":"25. Wither TP When At World Height"}
 
-tellraw @s {"bold":false,"clickEvent":\
-{"action":"run_command","value":"/function nmr:settings/toggle_wandering_trader"},\
-"hoverEvent":{"action":"show_text","value":[{"text":"Click To Toggle","color":"white","bold":false,"italic":false}]},\
-"color":"white","italic":false,"text":"26. Wandering Trader Mobheads"}
-
 tellraw @s {"text":" ","color":"dark_gray","bold":false,"italic":true}
 
 tellraw @s {"bold":false,"clickEvent":\

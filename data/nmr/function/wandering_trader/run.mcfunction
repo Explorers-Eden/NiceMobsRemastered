@@ -1,1 +1,0 @@
-execute as @e[type=wandering_trader,tag=!nmr_trader_set] at @s run function nmr:wandering_trader/modify_trader
